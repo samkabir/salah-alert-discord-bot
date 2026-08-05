@@ -1,0 +1,27 @@
+{
+  "name": "namaz-bot",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json && node scripts/copy-assets.mjs",
+    "start": "node dist/index.js",
+    "deploy-commands": "tsx src/deploy-commands.ts",
+    "deploy-commands:prod": "node dist/deploy-commands.js"
+  },
+  "dependencies": {
+    "adhan": "^4.4.4",
+    "better-sqlite3": "^11.3.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "node-schedule": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/node": "^22.7.4",
+    "@types/node-schedule": "^2.1.7",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}
