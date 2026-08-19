@@ -1,6 +1,7 @@
 import { PrayerSubcommand } from "../types";
 import { WAQTS, WEEKDAYS, Weekday, Waqt } from "../../types/prayer.types";
 import { setActiveDays } from "../../db/repositories/waqtSettings.repo";
+import { rescheduleGuildAlerts } from "../../services/scheduler.service";
 
 export const daysCommand: PrayerSubcommand = {
   name: "days",
@@ -44,6 +45,8 @@ export const daysCommand: PrayerSubcommand = {
 
     const targetWaqts: Waqt[] = waqtOption === "all" ? [...WAQTS] : [waqtOption];
     setActiveDays(guildId, targetWaqts, days);
+
+    rescheduleGuildAlerts(interaction.client, guildId);
 
     await interaction.reply({
       content: `Active days for **${waqtOption}** set to: ${days.join(", ")}.`,

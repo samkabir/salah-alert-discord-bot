@@ -7,6 +7,7 @@ import {
 } from "../../db/repositories/muteRange.repo";
 import { setMuteToday } from "../../db/repositories/guildConfig.repo";
 import { MuteRange } from "../../types/prayer.types";
+import { rescheduleGuildAlerts } from "../../services/scheduler.service";
 
 const ISO_DATE_REGEX = /^\d{4}-\d{2}-\d{2}$/;
 const TIME_WINDOW_REGEX = /^([01]\d|2[0-3]):([0-5]\d)-([01]\d|2[0-3]):([0-5]\d)$/;
@@ -121,6 +122,7 @@ async function addAndReply(
   }
 
   const id = addMuteRange(guildId, start, end, from, to);
+  rescheduleGuildAlerts(interaction.client, guildId);
   const span = start === end ? `**${start}**` : `**${start}** → **${end}**`;
   const window = from ? ` during **${from}–${to}**` : "";
   await interaction.reply({
@@ -160,6 +162,7 @@ async function setEnabled(interaction: ChatInputCommandInteraction, enabled: boo
   const guildId = interaction.guildId!;
   const id = interaction.options.getInteger("id", true);
   const ok = setMuteRangeEnabled(guildId, id, enabled);
+  if (ok) rescheduleGuildAlerts(interaction.client, guildId);
   await interaction.reply({
     content: ok
       ? `Mute entry \`#${id}\` ${enabled ? "enabled" : "disabled"}.`
@@ -180,6 +183,7 @@ export async function executeMuteRemove(interaction: ChatInputCommandInteraction
   const guildId = interaction.guildId!;
   const id = interaction.options.getInteger("id", true);
   const ok = removeMuteRange(guildId, id);
+  if (ok) rescheduleGuildAlerts(interaction.client, guildId);
   await interaction.reply({
     content: ok
       ? `Mute entry \`#${id}\` deleted.`
@@ -191,5 +195,6 @@ export async function executeMuteRemove(interaction: ChatInputCommandInteraction
 export async function executeMuteToday(interaction: ChatInputCommandInteraction): Promise<void> {
   const guildId = interaction.guildId!;
   setMuteToday(guildId, true);
+  rescheduleGuildAlerts(interaction.client, guildId);
   await interaction.reply({ content: "Alerts muted for the rest of today.", ephemeral: true });
 }

@@ -45,6 +45,25 @@ export function computeAlertDate(iso: string, cache: PrayerTimesCache, setting: 
   return base; // "start"
 }
 
+const ALERT_JOB_PREFIX = "alert:";
+
+/** Stable name for a guild's one-off alert job on a given date. */
+function alertJobName(guildId: string, waqt: Waqt, iso: string): string {
+  return `${ALERT_JOB_PREFIX}${guildId}:${waqt}:${iso}`;
+}
+
+/**
+ * Cancel every armed alert job for one guild. node-schedule's `cancel()` clears the
+ * timer *and* removes the name from `scheduledJobs`, so the duplicate-name guard in
+ * `scheduleOneOffAlert` will not block the re-arm that follows.
+ */
+function cancelGuildAlerts(guildId: string): void {
+  const prefix = `${ALERT_JOB_PREFIX}${guildId}:`;
+  for (const [name, job] of Object.entries(schedule.scheduledJobs)) {
+    if (name.startsWith(prefix)) job.cancel();
+  }
+}
+
 /** Schedule a single one-off alert job that posts the embed and marks it fired. */
 function scheduleOneOffAlert(
   client: Client,
@@ -55,12 +74,17 @@ function scheduleOneOffAlert(
   alertDate: Date,
   iso: string
 ): void {
-  const jobName = `alert:${guildId}:${waqt}:${iso}`;
+  const jobName = alertJobName(guildId, waqt, iso);
   if (schedule.scheduledJobs[jobName]) return; // already scheduled this run
 
   schedule.scheduleJob(jobName, alertDate, async () => {
     // Re-check at fire time: skip if it fired in the meantime (crash/overlap safety).
     if (hasFired(guildId, waqt, iso)) return;
+
+    // Re-read the setting too, so a message edit or a disable lands even on a job
+    // that was armed before the change.
+    const current = getWaqtSetting(guildId, waqt) ?? setting;
+    if (!current.enabled) return;
 
     const config = getGuildConfig(guildId);
     if (!config?.channelId) {
@@ -77,7 +101,7 @@ function scheduleOneOffAlert(
       const embed = new EmbedBuilder()
         .setColor(0x2b7a4b)
         .setTitle(`${waqt.charAt(0).toUpperCase() + waqt.slice(1)} — ${startTime}`)
-        .setDescription(renderMessage(setting.customMessage, waqt, startTime))
+        .setDescription(renderMessage(current.customMessage, waqt, startTime))
         .setTimestamp();
 
       await channel.send({ embeds: [embed] });
@@ -113,6 +137,16 @@ export function scheduleTodayAlerts(client: Client, guildId: string): void {
 
     scheduleOneOffAlert(client, guildId, waqt, setting, cache[waqt], alertDate, iso);
   }
+}
+
+/**
+ * Re-arm a guild's alerts from its *current* settings. Config commands must call
+ * this after writing to the DB: a job bakes in its fire time when it is armed, so
+ * a DB write on its own leaves the stale job running and firing at the old time.
+ */
+export function rescheduleGuildAlerts(client: Client, guildId: string): void {
+  cancelGuildAlerts(guildId);
+  scheduleTodayAlerts(client, guildId);
 }
 
 /** Fetch + cache today's times for a guild, then (re)schedule its alerts. */

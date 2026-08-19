@@ -78,6 +78,12 @@ scripts/generate-fallback.ts  one-off generator for the static JSON
   regardless of the server's OS timezone.
 - **Canonical waqt order** is `WAQTS` in `types/prayer.types.ts` (Fajr, Dhuhr,
   Asr, Maghrib, Isha) — never alphabetical. `getAllWaqtSettings` sorts by it.
+- **Any command that mutates alert config must call `rescheduleGuildAlerts`**
+  (`scheduler.service.ts`) after its DB write. Alerts are armed as node-schedule
+  one-off jobs whose fire time is baked in when armed, so a DB write alone leaves
+  the stale job running and firing at the old time. This applies to `set`,
+  `toggle`, `days`, `message`, `unmute`, and every `mute` subcommand. `channel` is
+  exempt: the job resolves the channel from `getGuildConfig` at fire time.
 - **Re-run `npm run deploy-commands`** whenever the command schema changes (new
   subcommand/option), or Discord keeps showing the old shape.
 
@@ -113,6 +119,14 @@ real cross-domain backup. Regenerate the static file with the generator script i
 - `onStartupRecovery(client)` — on boot, ensure today's times are cached (fetch if
   missing) and reschedule any unfired alerts, so a mid-day restart doesn't drop
   them. Wired alongside the cron in `initScheduler`.
+- `rescheduleGuildAlerts(client, guildId)` — cancels every armed `alert:<guild>:*`
+  job (node-schedule's `cancel()` also drops the name from `scheduledJobs`, so the
+  duplicate-name guard won't block the re-arm) then re-runs `scheduleTodayAlerts`
+  from current settings. This is what makes a config change take effect today
+  instead of at the next 00:01 cron / restart.
+- The fired job re-reads its `WaqtSetting` at fire time, so a mid-day `message`
+  edit or `toggle` off is honoured even by a job armed before the change. The fire
+  *time* still requires a re-arm.
 - `computeAlertDate` is exported so `/prayer status` shows the exact same time the
   scheduler will use.
 
@@ -136,13 +150,18 @@ single day has them equal), an `enabled` flag, and an optional time window
 - `mute_today` (per-guild boolean) is the separate "rest of today" mute, reset by
   the daily job. `unmute` clears it and deletes ranges covering today.
 
-## Deployment caveat
+## Deployment
 
-`npm run build` is plain `tsc`, which does **not** copy non-TS assets into
-`dist/`. So `node dist/index.js` will be missing `dist/db/migrations/*.sql` and
-`dist/data/fallback-times.json`. Options: run in prod via `tsx`, or add a copy
-step to the `build` script for `src/db/migrations` and `src/data`. `pm2`
-(`ecosystem.config.js`) runs `dist/index.js` with `TZ=Asia/Dhaka`.
+`npm run build` runs `tsc` then `scripts/copy-assets.mjs`, which copies the
+non-TS runtime assets `tsc` doesn't emit (`src/db/migrations` and `src/data`) into
+`dist/`. `pm2` (`ecosystem.config.js`) runs `dist/index.js` with `TZ=Asia/Dhaka`,
+so after any source change: `npm run build && pm2 restart namaz-bot`.
+
+`ecosystem.config.js` sets no `cwd`, and `DB_PATH`/`BACKUP_DIR` default to
+`./data/...` while `dotenv` resolves `.env` relative to cwd — so pm2 must be
+started from the project root or it will silently use a different database.
+`pm2 restart` re-reads `.env` (read at boot) but **not** the `env:` block in
+`ecosystem.config.js`; that needs `--update-env`.
 
 ## Gotchas
 
