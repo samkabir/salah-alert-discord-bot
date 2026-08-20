@@ -1,5 +1,5 @@
 import * as schedule from "node-schedule";
-import { Client, EmbedBuilder, TextChannel } from "discord.js";
+import { Client, TextChannel } from "discord.js";
 import { env } from "../config/env";
 import { Waqt, WaqtSetting, PrayerTimesCache } from "../types/prayer.types";
 import {
@@ -17,9 +17,9 @@ import { getWaqtSetting } from "../db/repositories/waqtSettings.repo";
 import { isEligibleToday, isAlertTimeMuted } from "./eligibility.service";
 import { fetchPrayerTimes, waqtKeys } from "./prayerTimes.service";
 import { logError } from "./logger.service";
-import { todayIso, zonedTimeToDate, formatTimeInZone } from "../utils/time";
+import { todayIso, zonedTimeToDate, formatTimeInZone, format12HourInZone } from "../utils/time";
 
-const DEFAULT_MESSAGE = "🕌 It's time for **{waqt}** ({time}).";
+const DEFAULT_MESSAGE = "🕌 It's time to pray.";
 
 /** Fill {waqt}/{time} placeholders in a (custom or default) alert message. */
 function renderMessage(template: string | null, waqt: Waqt, time: string): string {
@@ -70,7 +70,6 @@ function scheduleOneOffAlert(
   guildId: string,
   waqt: Waqt,
   setting: WaqtSetting,
-  startTime: string,
   alertDate: Date,
   iso: string
 ): void {
@@ -98,13 +97,20 @@ function scheduleOneOffAlert(
         throw new Error(`Channel ${config.channelId} is not a text channel`);
       }
 
-      const embed = new EmbedBuilder()
-        .setColor(0x2b7a4b)
-        .setTitle(`${waqt.charAt(0).toUpperCase() + waqt.slice(1)} — ${startTime}`)
-        .setDescription(renderMessage(current.customMessage, waqt, startTime))
-        .setTimestamp();
+      const nice = waqt.charAt(0).toUpperCase() + waqt.slice(1);
+      const at = format12HourInZone(alertDate);
+      const content = [
+        "@everyone",
+        `${nice} Prayer time - ${at}`,
+        renderMessage(current.customMessage, waqt, at),
+      ].join("\n");
 
-      await channel.send({ embeds: [embed] });
+      // @everyone only notifies from `content` (never from an embed body), and only
+      // if the bot holds the "Mention @everyone, @here, and All Roles" permission.
+      await channel.send({
+        content,
+        allowedMentions: { parse: ["everyone", "roles", "users"] },
+      });
       markFired(guildId, waqt, iso);
     } catch (err) {
       await logError(client, guildId, `alert:${waqt}`, err);
@@ -135,7 +141,7 @@ export function scheduleTodayAlerts(client: Client, guildId: string): void {
     if (hasFired(guildId, waqt, iso)) continue; // already fired today
     if (isAlertTimeMuted(guildId, iso, formatTimeInZone(alertDate))) continue; // within a mute window
 
-    scheduleOneOffAlert(client, guildId, waqt, setting, cache[waqt], alertDate, iso);
+    scheduleOneOffAlert(client, guildId, waqt, setting, alertDate, iso);
   }
 }
 

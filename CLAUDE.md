@@ -74,7 +74,8 @@ scripts/generate-fallback.ts  one-off generator for the static JSON
 - **Never construct wall-clock times by hand.** Use `utils/time.ts`:
   `todayIso()` (YYYY-MM-DD in TIMEZONE), `currentWeekday()`, `zonedTimeToDate(iso,
   h, m)` (wall time in TIMEZONE → absolute Date), `formatTimeInZone(date)`
-  (absolute Date → "HH:MM" in TIMEZONE). These use `Intl`, so they are correct
+  (absolute Date → "HH:MM" in TIMEZONE), `format12HourInZone(date)` (absolute
+  Date → "01:00 PM" in TIMEZONE). These use `Intl`, so they are correct
   regardless of the server's OS timezone.
 - **Canonical waqt order** is `WAQTS` in `types/prayer.types.ts` (Fajr, Dhuhr,
   Asr, Maghrib, Isha) — never alphabetical. `getAllWaqtSettings` sorts by it.
@@ -129,6 +130,26 @@ real cross-domain backup. Regenerate the static file with the generator script i
   *time* still requires a re-arm.
 - `computeAlertDate` is exported so `/prayer status` shows the exact same time the
   scheduler will use.
+
+### Alert message format
+
+Alerts are sent as **plain text, not an embed** — Discord does not notify anyone
+for an `@everyone` inside an embed body, so the ping must live in `content`:
+
+```
+@everyone
+Asr Prayer time - 01:00 PM
+<custom or default message>
+```
+
+The header time is the **configured alert time** (`computeAlertDate`), not the
+waqt's cached start — so under `before`/`after` it is the shifted time, and under
+`fixed` it is the fixed clock time. `{time}` in a custom message resolves to the
+same value. Times are rendered by `format12HourInZone` (`utils/time.ts`), which
+assembles from `Intl` parts because `format()` on modern ICU separates the
+dayPeriod with U+202F rather than a plain space. Sending requires the bot to hold
+Discord's **Mention @everyone, @here, and All Roles** permission in that channel;
+without it the text posts but pings nobody.
 
 ## Offset modes (`waqt_settings.offset_type` / `offset_value`)
 
