@@ -1,6 +1,7 @@
 import { PrayerSubcommand } from "../types";
 import { WAQTS } from "../../types/prayer.types";
 import { setCustomMessage } from "../../db/repositories/waqtSettings.repo";
+import { rescheduleGuildAlerts } from "../../services/scheduler.service";
 
 export const messageCommand: PrayerSubcommand = {
   name: "message",
@@ -28,6 +29,8 @@ export const messageCommand: PrayerSubcommand = {
 
     const isReset = text.trim().toLowerCase() === "reset";
     setCustomMessage(guildId, waqt, isReset ? null : text);
+
+    rescheduleGuildAlerts(interaction.client, guildId);
 
     await interaction.reply({
       content: isReset

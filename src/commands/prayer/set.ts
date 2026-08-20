@@ -1,6 +1,7 @@
 import { PrayerSubcommand } from "../types";
 import { OFFSET_TYPES, WAQTS } from "../../types/prayer.types";
 import { setOffset } from "../../db/repositories/waqtSettings.repo";
+import { rescheduleGuildAlerts } from "../../services/scheduler.service";
 
 const FIXED_TIME_REGEX = /^([01]\d|2[0-3]):([0-5]\d)$/;
 
@@ -59,6 +60,8 @@ export const setCommand: PrayerSubcommand = {
     } else {
       setOffset(guildId, waqt, "start", 0);
     }
+
+    rescheduleGuildAlerts(interaction.client, guildId);
 
     await interaction.reply({
       content: `**${waqt}** alert mode set to **${mode}**${rawValue ? ` (${rawValue})` : ""}.`,

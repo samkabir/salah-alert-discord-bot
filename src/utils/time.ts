@@ -52,6 +52,22 @@ export function zonedTimeToDate(isoDate: string, hours: number, minutes: number)
   return new Date(guessUtcMs - offset);
 }
 
+/**
+ * Format an absolute Date as a 12-hour wall-clock time in the configured TIMEZONE,
+ * e.g. "01:00 PM". Assembled from parts because `format()` on modern ICU separates
+ * the dayPeriod with U+202F (narrow no-break space) rather than a plain space.
+ */
+export function format12HourInZone(date: Date): string {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: env.TIMEZONE,
+    hour12: true,
+    hour: "2-digit",
+    minute: "2-digit",
+  }).formatToParts(date);
+  const get = (type: string): string => parts.find((p) => p.type === type)?.value ?? "";
+  return `${get("hour")}:${get("minute")} ${get("dayPeriod").toUpperCase()}`;
+}
+
 /** Format an absolute Date as "HH:MM" wall-clock time in the configured TIMEZONE. */
 export function formatTimeInZone(date: Date): string {
   return new Intl.DateTimeFormat("en-GB", {

@@ -1,6 +1,7 @@
 import { PrayerSubcommand } from "../types";
 import { WAQTS } from "../../types/prayer.types";
 import { toggleWaqt, getWaqtSetting } from "../../db/repositories/waqtSettings.repo";
+import { rescheduleGuildAlerts } from "../../services/scheduler.service";
 
 export const toggleCommand: PrayerSubcommand = {
   name: "toggle",
@@ -25,6 +26,8 @@ export const toggleCommand: PrayerSubcommand = {
 
     toggleWaqt(guildId, waqt, enabled);
     const setting = getWaqtSetting(guildId, waqt);
+
+    rescheduleGuildAlerts(interaction.client, guildId);
 
     await interaction.reply({
       content: `**${waqt}** alerts are now **${setting?.enabled ? "enabled" : "disabled"}**.`,
