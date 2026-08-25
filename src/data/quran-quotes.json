@@ -1,0 +1,1519 @@
+{
+  "source": "https://api.alquran.cloud (Islamic Network)",
+  "generatedAt": "2026-08-25T09:21:14.586Z",
+  "editions": {
+    "bn": {
+      "identifier": "bn.bengali",
+      "translator": "মুহিউদ্দীন খান",
+      "translatorEnglish": "Muhiuddin Khan"
+    },
+    "en": {
+      "identifier": "en.sahih",
+      "translator": "Saheeh International",
+      "translatorEnglish": "Saheeh International"
+    }
+  },
+  "count": 150,
+  "quotes": [
+    {
+      "reference": "2:45",
+      "surah": 2,
+      "ayah": 45,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "salah",
+      "bn": "ধৈর্য্যর সাথে সাহায্য প্রার্থনা কর নামাযের মাধ্যমে। অবশ্য তা যথেষ্ট কঠিন। কিন্তু সে সমস্ত বিনয়ী লোকদের পক্ষেই তা সম্ভব।",
+      "en": "And seek help through patience and prayer, and indeed, it is difficult except for the humbly submissive [to Allah]"
+    },
+    {
+      "reference": "2:110",
+      "surah": 2,
+      "ayah": 110,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "salah",
+      "bn": "তোমরা নামায প্রতিষ্ঠা কর এবং যাকাত দাও। তোমরা নিজের জন্যে পূর্বে যে সৎকর্ম প্রেরণ করবে, তা আল্লাহর কাছে পাবে। তোমরা যা কিছু কর, নিশ্চয় আল্লাহ তা প্রত্যক্ষ করেন।",
+      "en": "And establish prayer and give zakah, and whatever good you put forward for yourselves - you will find it with Allah. Indeed, Allah of what you do, is Seeing."
+    },
+    {
+      "reference": "2:238",
+      "surah": 2,
+      "ayah": 238,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "salah",
+      "bn": "সমস্ত নামাযের প্রতি যত্নবান হও, বিশেষ করে মধ্যবর্তী নামাযের ব্যাপারে। আর আল্লাহর সামনে একান্ত আদবের সাথে দাঁড়াও।",
+      "en": "Maintain with care the [obligatory] prayers and [in particular] the middle prayer and stand before Allah, devoutly obedient."
+    },
+    {
+      "reference": "4:103",
+      "surah": 4,
+      "ayah": 103,
+      "surahNameArabic": "سُورَةُ النِّسَاءِ",
+      "surahNameEnglish": "An-Nisaa",
+      "theme": "salah",
+      "bn": "অতঃপর যখন তোমরা নামায সম্পন্ন কর, তখন দন্ডায়মান, উপবিষ্ট ও শায়িত অবস্থায় আল্লাহকে স্মরণ কর। অতঃপর যখন বিপদমুক্ত হয়ে যাও, তখন নামায ঠিক করে পড়। নিশ্চয় নামায মুসলমানদের উপর ফরয নির্দিষ্ট সময়ের মধ্যে।",
+      "en": "And when you have completed the prayer, remember Allah standing, sitting, or [lying] on your sides. But when you become secure, re-establish [regular] prayer. Indeed, prayer has been decreed upon the believers a decree of specified times."
+    },
+    {
+      "reference": "11:114",
+      "surah": 11,
+      "ayah": 114,
+      "surahNameArabic": "سُورَةُ هُودٍ",
+      "surahNameEnglish": "Hud",
+      "theme": "salah",
+      "bn": "আর দিনের দুই প্রান্তেই নামায ঠিক রাখবে, এবং রাতের প্রান্তভাগে পূর্ণ কাজ অবশ্যই পাপ দূর করে দেয়, যারা স্মরণ রাখে তাদের জন্য এটি এক মহা স্মারক।",
+      "en": "And establish prayer at the two ends of the day and at the approach of the night. Indeed, good deeds do away with misdeeds. That is a reminder for those who remember."
+    },
+    {
+      "reference": "14:40",
+      "surah": 14,
+      "ayah": 40,
+      "surahNameArabic": "سُورَةُ إِبۡرَاهِيمَ",
+      "surahNameEnglish": "Ibrahim",
+      "theme": "salah",
+      "bn": "হে আমার পালনকর্তা, আমাকে নামায কায়েমকারী করুন এবং আমার সন্তানদের মধ্যে থেকেও। হে আমাদের পালনকর্তা, এবং কবুল করুন আমাদের দোয়া।",
+      "en": "My Lord, make me an establisher of prayer, and [many] from my descendants. Our Lord, and accept my supplication."
+    },
+    {
+      "reference": "17:78",
+      "surah": 17,
+      "ayah": 78,
+      "surahNameArabic": "سُورَةُ الإِسۡرَاءِ",
+      "surahNameEnglish": "Al-Israa",
+      "theme": "salah",
+      "bn": "সূর্য ঢলে পড়ার সময় থেকে রাত্রির অন্ধকার পর্যন্ত নামায কায়েম করুন এবং ফজরের কোরআন পাঠও। নিশ্চয় ফজরের কোরআন পাঠ মুখোমুখি হয়।",
+      "en": "Establish prayer at the decline of the sun [from its meridian] until the darkness of the night and [also] the Qur'an of dawn. Indeed, the recitation of dawn is ever witnessed."
+    },
+    {
+      "reference": "19:31",
+      "surah": 19,
+      "ayah": 31,
+      "surahNameArabic": "سُورَةُ مَرۡيَمَ",
+      "surahNameEnglish": "Maryam",
+      "theme": "salah",
+      "bn": "আমি যেখানেই থাকি, তিনি আমাকে বরকতময় করেছেন। তিনি আমাকে নির্দেশ দিয়েছেন, যতদিন জীবিত থাকি, ততদিন নামায ও যাকাত আদায় করতে।",
+      "en": "And He has made me blessed wherever I am and has enjoined upon me prayer and zakah as long as I remain alive"
+    },
+    {
+      "reference": "20:14",
+      "surah": 20,
+      "ayah": 14,
+      "surahNameArabic": "سُورَةُ طه",
+      "surahNameEnglish": "Taa-Haa",
+      "theme": "salah",
+      "bn": "আমিই আল্লাহ আমি ব্যতীত কোন ইলাহ নেই। অতএব আমার এবাদত কর এবং আমার স্মরণার্থে নামায কায়েম কর।",
+      "en": "Indeed, I am Allah. There is no deity except Me, so worship Me and establish prayer for My remembrance."
+    },
+    {
+      "reference": "20:132",
+      "surah": 20,
+      "ayah": 132,
+      "surahNameArabic": "سُورَةُ طه",
+      "surahNameEnglish": "Taa-Haa",
+      "theme": "salah",
+      "bn": "আপনি আপনার পরিবারের লোকদেরকে নামাযের আদেশ দিন এবং নিজেও এর ওপর অবিচল থাকুন। আমি আপনার কাছে কোন রিযিক চাই না। আমি আপনাকে রিযিক দেই এবং আল্লাহ ভীরুতার পরিণাম শুভ।",
+      "en": "And enjoin prayer upon your family [and people] and be steadfast therein. We ask you not for provision; We provide for you, and the [best] outcome is for [those of] righteousness."
+    },
+    {
+      "reference": "22:77",
+      "surah": 22,
+      "ayah": 77,
+      "surahNameArabic": "سُورَةُ الحَجِّ",
+      "surahNameEnglish": "Al-Hajj",
+      "theme": "salah",
+      "bn": "হে মুমিনগণ! তোমরা রুকু কর, সেজদা কর, তোমাদের পালনকর্তার এবাদত কর এবং সৎকাজ সম্পাদন কর, যাতে তোমরা সফলকাম হতে পার।",
+      "en": "O you who have believed, bow and prostrate and worship your Lord and do good - that you may succeed."
+    },
+    {
+      "reference": "23:1",
+      "surah": 23,
+      "ayah": 1,
+      "surahNameArabic": "سُورَةُ المُؤۡمِنُونَ",
+      "surahNameEnglish": "Al-Muminoon",
+      "theme": "salah",
+      "bn": "মুমিনগণ সফলকাম হয়ে গেছে,",
+      "en": "Certainly will the believers have succeeded:"
+    },
+    {
+      "reference": "23:2",
+      "surah": 23,
+      "ayah": 2,
+      "surahNameArabic": "سُورَةُ المُؤۡمِنُونَ",
+      "surahNameEnglish": "Al-Muminoon",
+      "theme": "salah",
+      "bn": "যারা নিজেদের নামাযে বিনয়-নম্র;",
+      "en": "They who are during their prayer humbly submissive"
+    },
+    {
+      "reference": "24:37",
+      "surah": 24,
+      "ayah": 37,
+      "surahNameArabic": "سُورَةُ النُّورِ",
+      "surahNameEnglish": "An-Noor",
+      "theme": "salah",
+      "bn": "এমন লোকেরা, যাদেরকে ব্যবসা-বাণিজ্য ও ক্রয়-বিক্রয় আল্লাহর স্মরণ থেকে, নামায কায়েম করা থেকে এবং যাকাত প্রদান করা থেকে বিরত রাখে না। তারা ভয় করে সেই দিনকে, যেদিন অন্তর ও দৃষ্টিসমূহ উল্টে যাবে।",
+      "en": "[Are] men whom neither commerce nor sale distracts from the remembrance of Allah and performance of prayer and giving of zakah. They fear a Day in which the hearts and eyes will [fearfully] turn about -"
+    },
+    {
+      "reference": "29:45",
+      "surah": 29,
+      "ayah": 45,
+      "surahNameArabic": "سُورَةُ العَنكَبُوتِ",
+      "surahNameEnglish": "Al-Ankaboot",
+      "theme": "salah",
+      "bn": "আপনি আপনার প্রতি প্রত্যাদিষ্ট কিতাব পাঠ করুন এবং নামায কায়েম করুন। নিশ্চয় নামায অশ্লীল ও গর্হিত কার্য থেকে বিরত রাখে। আল্লাহর স্মরণ সর্বশ্রেষ্ঠ। আল্লাহ জানেন তোমরা যা কর।",
+      "en": "Recite, [O Muhammad], what has been revealed to you of the Book and establish prayer. Indeed, prayer prohibits immorality and wrongdoing, and the remembrance of Allah is greater. And Allah knows that which you do."
+    },
+    {
+      "reference": "31:17",
+      "surah": 31,
+      "ayah": 17,
+      "surahNameArabic": "سُورَةُ لُقۡمَانَ",
+      "surahNameEnglish": "Luqman",
+      "theme": "salah",
+      "bn": "হে বৎস, নামায কায়েম কর, সৎকাজে আদেশ দাও, মন্দকাজে নিষেধ কর এবং বিপদাপদে সবর কর। নিশ্চয় এটা সাহসিকতার কাজ।",
+      "en": "O my son, establish prayer, enjoin what is right, forbid what is wrong, and be patient over what befalls you. Indeed, [all] that is of the matters [requiring] determination."
+    },
+    {
+      "reference": "62:9",
+      "surah": 62,
+      "ayah": 9,
+      "surahNameArabic": "سُورَةُ الجُمُعَةِ",
+      "surahNameEnglish": "Al-Jumu'a",
+      "theme": "salah",
+      "bn": "মুমিনগণ, জুমআর দিনে যখন নামাযের আযান দেয়া হয়, তখন তোমরা আল্লাহর স্মরণের পানে ত্বরা কর এবং বেচাকেনা বন্ধ কর। এটা তোমাদের জন্যে উত্তম যদি তোমরা বুঝ।",
+      "en": "O you who have believed, when [the adhan] is called for the prayer on the day of Jumu'ah [Friday], then proceed to the remembrance of Allah and leave trade. That is better for you, if you only knew."
+    },
+    {
+      "reference": "87:14",
+      "surah": 87,
+      "ayah": 14,
+      "surahNameArabic": "سُورَةُ الأَعۡلَىٰ",
+      "surahNameEnglish": "Al-A'laa",
+      "theme": "salah",
+      "bn": "নিশ্চয় সাফল্য লাভ করবে সে, যে শুদ্ধ হয়",
+      "en": "He has certainly succeeded who purifies himself"
+    },
+    {
+      "reference": "87:15",
+      "surah": 87,
+      "ayah": 15,
+      "surahNameArabic": "سُورَةُ الأَعۡلَىٰ",
+      "surahNameEnglish": "Al-A'laa",
+      "theme": "salah",
+      "bn": "এবং তার পালনকর্তার নাম স্মরণ করে, অতঃপর নামায আদায় করে।",
+      "en": "And mentions the name of his Lord and prays."
+    },
+    {
+      "reference": "96:19",
+      "surah": 96,
+      "ayah": 19,
+      "surahNameArabic": "سُورَةُ العَلَقِ",
+      "surahNameEnglish": "Al-Alaq",
+      "theme": "salah",
+      "bn": "কখনই নয়, আপনি তার আনুগত্য করবেন না। আপনি সেজদা করুন ও আমার নৈকট্য অর্জন করুন।",
+      "en": "No! Do not obey him. But prostrate and draw near [to Allah]."
+    },
+    {
+      "reference": "2:153",
+      "surah": 2,
+      "ayah": 153,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "patience",
+      "bn": "হে মুমিন গন! তোমরা ধৈর্য্য ও নামাযের মাধ্যমে সাহায্য প্রার্থনা কর। নিশ্চিতই আল্লাহ ধৈর্য্যশীলদের সাথে রয়েছেন।",
+      "en": "O you who have believed, seek help through patience and prayer. Indeed, Allah is with the patient."
+    },
+    {
+      "reference": "2:155",
+      "surah": 2,
+      "ayah": 155,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "patience",
+      "bn": "এবং অবশ্যই আমি তোমাদিগকে পরীক্ষা করব কিছুটা ভয়, ক্ষুধা, মাল ও জানের ক্ষতি ও ফল-ফসল বিনষ্টের মাধ্যমে। তবে সুসংবাদ দাও সবরকারীদের।",
+      "en": "And We will surely test you with something of fear and hunger and a loss of wealth and lives and fruits, but give good tidings to the patient,"
+    },
+    {
+      "reference": "2:156",
+      "surah": 2,
+      "ayah": 156,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "patience",
+      "bn": "যখন তারা বিপদে পতিত হয়, তখন বলে, নিশ্চয় আমরা সবাই আল্লাহর জন্য এবং আমরা সবাই তাঁরই সান্নিধ্যে ফিরে যাবো।",
+      "en": "Who, when disaster strikes them, say, \"Indeed we belong to Allah, and indeed to Him we will return.\""
+    },
+    {
+      "reference": "2:157",
+      "surah": 2,
+      "ayah": 157,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "patience",
+      "bn": "তারা সে সমস্ত লোক, যাদের প্রতি আল্লাহর অফুরন্ত অনুগ্রহ ও রহমত রয়েছে এবং এসব লোকই হেদায়েত প্রাপ্ত।",
+      "en": "Those are the ones upon whom are blessings from their Lord and mercy. And it is those who are the [rightly] guided."
+    },
+    {
+      "reference": "2:250",
+      "surah": 2,
+      "ayah": 250,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "patience",
+      "bn": "আর যখন তালূত ও তার সেনাবাহিনী শত্রুর সম্মুখীন হল, তখন বলল, হে আমাদের পালনকর্তা, আমাদের মনে ধৈর্য্য সৃষ্টি করে দাও এবং আমাদেরকে দৃঢ়পদ রাখ-আর আমাদের সাহায্য কর সে কাফের জাতির বিরুদ্ধে।",
+      "en": "And when they went forth to [face] Goliath and his soldiers, they said, \"Our Lord, pour upon us patience and plant firmly our feet and give us victory over the disbelieving people.\""
+    },
+    {
+      "reference": "3:146",
+      "surah": 3,
+      "ayah": 146,
+      "surahNameArabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surahNameEnglish": "Aal-i-Imraan",
+      "theme": "patience",
+      "bn": "আর বহু নবী ছিলেন, যাঁদের সঙ্গী-সাথীরা তাঁদের অনুবর্তী হয়ে জেহাদ করেছে; আল্লাহর পথে-তাদের কিছু কষ্ট হয়েছে বটে, কিন্তু আল্লাহর রাহে তারা হেরেও যায়নি, ক্লান্তও হয়নি এবং দমেও যায়নি। আর যারা সবর করে, আল্লাহ তাদেরকে ভালবাসেন।",
+      "en": "And how many a prophet [fought and] with him fought many religious scholars. But they never lost assurance due to what afflicted them in the cause of Allah, nor did they weaken or submit. And Allah loves the steadfast."
+    },
+    {
+      "reference": "3:200",
+      "surah": 3,
+      "ayah": 200,
+      "surahNameArabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surahNameEnglish": "Aal-i-Imraan",
+      "theme": "patience",
+      "bn": "হে ঈমানদানগণ! ধৈর্য্য ধারণ কর এবং মোকাবেলায় দৃঢ়তা অবলম্বন কর। আর আল্লাহকে ভয় করতে থাক যাতে তোমরা তোমাদের উদ্দেশ্য লাভে সমর্থ হতে পার।",
+      "en": "O you who have believed, persevere and endure and remain stationed and fear Allah that you may be successful."
+    },
+    {
+      "reference": "8:46",
+      "surah": 8,
+      "ayah": 46,
+      "surahNameArabic": "سُورَةُ الأَنفَالِ",
+      "surahNameEnglish": "Al-Anfaal",
+      "theme": "patience",
+      "bn": "আর আল্লাহ তা’আলার নির্দেশ মান্য কর এবং তাঁর রসূলের। তাছাড়া তোমরা পরস্পরে বিবাদে লিপ্ত হইও না। যদি তা কর, তবে তোমরা কাপুরুষ হয়ে পড়বে এবং তোমাদের প্রভাব চলে যাবে। আর তোমরা ধৈর্য্যধারণ কর। নিশ্চয়ই আল্লাহ তা'আলা রয়েছেন ধৈর্য্যশীলদের সাথে।",
+      "en": "And obey Allah and His Messenger, and do not dispute and [thus] lose courage and [then] your strength would depart; and be patient. Indeed, Allah is with the patient."
+    },
+    {
+      "reference": "12:87",
+      "surah": 12,
+      "ayah": 87,
+      "surahNameArabic": "سُورَةُ يُوسُفَ",
+      "surahNameEnglish": "Yusuf",
+      "theme": "patience",
+      "bn": "বৎসগণ! যাও, ইউসুফ ও তার ভাইকে তালাশ কর এবং আল্লাহর রহমত থেকে নিরাশ হয়ো না। নিশ্চয় আল্লাহর রহমত থেকে কাফের সম্প্রদায়, ব্যতীত অন্য কেউ নিরাশ হয় না।",
+      "en": "O my sons, go and find out about Joseph and his brother and despair not of relief from Allah. Indeed, no one despairs of relief from Allah except the disbelieving people.\""
+    },
+    {
+      "reference": "13:24",
+      "surah": 13,
+      "ayah": 24,
+      "surahNameArabic": "سُورَةُ الرَّعۡدِ",
+      "surahNameEnglish": "Ar-Ra'd",
+      "theme": "patience",
+      "bn": "বলবেঃ তোমাদের সবরের কারণে তোমাদের উপর শান্তি বর্ষিত হোক। আর তোমাদের এ পরিণাম-গৃহ কতই না চমৎকার।",
+      "en": "\"Peace be upon you for what you patiently endured. And excellent is the final home.\""
+    },
+    {
+      "reference": "16:127",
+      "surah": 16,
+      "ayah": 127,
+      "surahNameArabic": "سُورَةُ النَّحۡلِ",
+      "surahNameEnglish": "An-Nahl",
+      "theme": "patience",
+      "bn": "আপনি সবর করবেন। আপনার সবর আল্লাহর জন্য ব্যতীত নয়, তাদের জন্যে দুঃখ করবেন না এবং তাদের চক্রান্তের কারণে মন ছোট করবেন না।",
+      "en": "And be patient, [O Muhammad], and your patience is not but through Allah. And do not grieve over them and do not be in distress over what they conspire."
+    },
+    {
+      "reference": "39:10",
+      "surah": 39,
+      "ayah": 10,
+      "surahNameArabic": "سُورَةُ الزُّمَرِ",
+      "surahNameEnglish": "Az-Zumar",
+      "theme": "patience",
+      "bn": "বলুন, হে আমার বিশ্বাসী বান্দাগণ! তোমরা তোমাদের পালনকর্তাকে ভয় কর। যারা এ দুনিয়াতে সৎকাজ করে, তাদের জন্যে রয়েছে পুণ্য। আল্লাহর পৃথিবী প্রশস্ত। যারা সবরকারী, তারাই তাদের পুরস্কার পায় অগণিত।",
+      "en": "Say, \"O My servants who have believed, fear your Lord. For those who do good in this world is good, and the earth of Allah is spacious. Indeed, the patient will be given their reward without account.\""
+    },
+    {
+      "reference": "41:35",
+      "surah": 41,
+      "ayah": 35,
+      "surahNameArabic": "سُورَةُ فُصِّلَتۡ",
+      "surahNameEnglish": "Fussilat",
+      "theme": "patience",
+      "bn": "এ চরিত্র তারাই লাভ করে, যারা সবর করে এবং এ চরিত্রের অধিকারী তারাই হয়, যারা অত্যন্ত ভাগ্যবান।",
+      "en": "But none is granted it except those who are patient, and none is granted it except one having a great portion [of good]."
+    },
+    {
+      "reference": "46:35",
+      "surah": 46,
+      "ayah": 35,
+      "surahNameArabic": "سُورَةُ الأَحۡقَافِ",
+      "surahNameEnglish": "Al-Ahqaf",
+      "theme": "patience",
+      "bn": "অতএব, আপনি সবর করুন, যেমন উচ্চ সাহসী পয়গম্বরগণ সবর করেছেন এবং ওদের বিষয়ে তড়িঘড়ি করবেন না। ওদেরকে যে বিষয়ে ওয়াদা দেয়া হত, তা যেদিন তারা প্রত্যক্ষ করবে, সেদিন তাদের মনে হবে যেন তারা দিনের এক মুহুর্তের বেশী পৃথিবীতে অবস্থান করেনি। এটা সুস্পষ্ট অবগতি। এখন তারাই ধ্বংসপ্রাপ্ত হবে, যারা পাপাচারী সম্প্রদায়।",
+      "en": "So be patient, [O Muhammad], as were those of determination among the messengers and do not be impatient for them. It will be - on the Day they see that which they are promised - as though they had not remained [in the world] except an hour of a day. [This is] notification. And will [any] be destroyed except the defiantly disobedient people?"
+    },
+    {
+      "reference": "70:5",
+      "surah": 70,
+      "ayah": 5,
+      "surahNameArabic": "سُورَةُ المَعَارِجِ",
+      "surahNameEnglish": "Al-Ma'aarij",
+      "theme": "patience",
+      "bn": "অতএব, আপনি উত্তম সবর করুন।",
+      "en": "So be patient with gracious patience."
+    },
+    {
+      "reference": "103:3",
+      "surah": 103,
+      "ayah": 3,
+      "surahNameArabic": "سُورَةُ العَصۡرِ",
+      "surahNameEnglish": "Al-Asr",
+      "theme": "patience",
+      "bn": "কিন্তু তারা নয়, যারা বিশ্বাস স্থাপন করে ও সৎকর্ম করে এবং পরস্পরকে তাকীদ করে সত্যের এবং তাকীদ করে সবরের।",
+      "en": "Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience."
+    },
+    {
+      "reference": "2:152",
+      "surah": 2,
+      "ayah": 152,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "gratitude",
+      "bn": "সুতরাং তোমরা আমাকে স্মরণ কর, আমিও তোমাদের স্মরণ রাখবো এবং আমার কৃতজ্ঞতা প্রকাশ কর; অকৃতজ্ঞ হয়ো না।",
+      "en": "So remember Me; I will remember you. And be grateful to Me and do not deny Me."
+    },
+    {
+      "reference": "2:172",
+      "surah": 2,
+      "ayah": 172,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "gratitude",
+      "bn": "হে ঈমানদারগণ, তোমরা পবিত্র বস্তু সামগ্রী আহার কর, যেগুলো আমি তোমাদেরকে রুযী হিসাবে দান করেছি এবং শুকরিয়া আদায় কর আল্লাহর, যদি তোমরা তাঁরই বন্দেগী কর।",
+      "en": "O you who have believed, eat from the good things which We have provided for you and be grateful to Allah if it is [indeed] Him that you worship."
+    },
+    {
+      "reference": "14:7",
+      "surah": 14,
+      "ayah": 7,
+      "surahNameArabic": "سُورَةُ إِبۡرَاهِيمَ",
+      "surahNameEnglish": "Ibrahim",
+      "theme": "gratitude",
+      "bn": "যখন তোমাদের পালনকর্তা ঘোষণা করলেন যে, যদি কৃতজ্ঞতা স্বীকার কর, তবে তোমাদেরকে আরও দেব এবং যদি অকৃতজ্ঞ হও তবে নিশ্চয়ই আমার শাস্তি হবে কঠোর।",
+      "en": "And [remember] when your Lord proclaimed, 'If you are grateful, I will surely increase you [in favor]; but if you deny, indeed, My punishment is severe.' \""
+    },
+    {
+      "reference": "14:34",
+      "surah": 14,
+      "ayah": 34,
+      "surahNameArabic": "سُورَةُ إِبۡرَاهِيمَ",
+      "surahNameEnglish": "Ibrahim",
+      "theme": "gratitude",
+      "bn": "যে সকল বস্তু তোমরা চেয়েছ, তার প্রত্যেকটি থেকেই তিনি তোমাদেরকে দিয়েছেন। যদি আল্লাহর নেয়ামত গণনা কর, তবে গুণে শেষ করতে পারবে না। নিশ্চয় মানুষ অত্যন্ত অন্যায়কারী, অকৃতজ্ঞ।",
+      "en": "And He gave you from all you asked of Him. And if you should count the favor of Allah, you could not enumerate them. Indeed, mankind is [generally] most unjust and ungrateful."
+    },
+    {
+      "reference": "16:18",
+      "surah": 16,
+      "ayah": 18,
+      "surahNameArabic": "سُورَةُ النَّحۡلِ",
+      "surahNameEnglish": "An-Nahl",
+      "theme": "gratitude",
+      "bn": "যদি আল্লাহর নেয়ামত গণনা কর, শেষ করতে পারবে না। নিশ্চয় আল্লাহ ক্ষমাশীল, দয়ালু।",
+      "en": "And if you should count the favors of Allah, you could not enumerate them. Indeed, Allah is Forgiving and Merciful."
+    },
+    {
+      "reference": "16:53",
+      "surah": 16,
+      "ayah": 53,
+      "surahNameArabic": "سُورَةُ النَّحۡلِ",
+      "surahNameEnglish": "An-Nahl",
+      "theme": "gratitude",
+      "bn": "তোমাদের কাছে যে সমস্ত নেয়ামত আছে, তা আল্লাহরই পক্ষ থেকে। অতঃপর তোমরা যখন দুঃখে-কষ্টে পতিত হও তখন তাঁরই নিকট কান্নাকাটি কর।",
+      "en": "And whatever you have of favor - it is from Allah. Then when adversity touches you, to Him you cry for help."
+    },
+    {
+      "reference": "27:19",
+      "surah": 27,
+      "ayah": 19,
+      "surahNameArabic": "سُورَةُ النَّمۡلِ",
+      "surahNameEnglish": "An-Naml",
+      "theme": "gratitude",
+      "bn": "তার কথা শুনে সুলায়মান মুচকি হাসলেন এবং বললেন, হে আমার পালনকর্তা, তুমি আমাকে সামর্থ?2470;াও যাতে আমি তোমার সেই নিয়ামতের কৃতজ্ঞতা প্রকাশ করতে পারি, যা তুমি আমাকে ও আমার পিতা-মাতাকে দান করেছ এবং যাতে আমি তোমার পছন্দনীয় সৎকর্ম করতে পারি এবং আমাকে নিজ অনুগ্রহে তোমার সৎকর্মপরায়ন বান্দাদের অন্তর্ভুক্ত কর।",
+      "en": "So [Solomon] smiled, amused at her speech, and said, \"My Lord, enable me to be grateful for Your favor which You have bestowed upon me and upon my parents and to do righteousness of which You approve. And admit me by Your mercy into [the ranks of] Your righteous servants.\""
+    },
+    {
+      "reference": "31:12",
+      "surah": 31,
+      "ayah": 12,
+      "surahNameArabic": "سُورَةُ لُقۡمَانَ",
+      "surahNameEnglish": "Luqman",
+      "theme": "gratitude",
+      "bn": "আমি লোকমানকে প্রজ্ঞা দান করেছি এই মর্মে যে, আল্লাহর প্রতি কৃতজ্ঞ হও। যে কৃতজ্ঞ হয়, সে তো কেবল নিজ কল্যানের জন্যই কৃতজ্ঞ হয়। আর যে অকৃতজ্ঞ হয়, আল্লাহ অভাবমুক্ত, প্রশংসিত।",
+      "en": "And We had certainly given Luqman wisdom [and said], \"Be grateful to Allah.\" And whoever is grateful is grateful for [the benefit of] himself. And whoever denies [His favor] - then indeed, Allah is Free of need and Praiseworthy."
+    },
+    {
+      "reference": "34:13",
+      "surah": 34,
+      "ayah": 13,
+      "surahNameArabic": "سُورَةُ سَبَإٍ",
+      "surahNameEnglish": "Saba",
+      "theme": "gratitude",
+      "bn": "তারা সোলায়মানের ইচ্ছানুযায়ী দুর্গ, ভাস্কর্য, হাউযসদৃশ বৃহদাকার পাত্র এবং চুল্লির উপর স্থাপিত বিশাল ডেগ নির্মাণ করত। হে দাউদ পরিবার! কৃতজ্ঞতা সহকারে তোমরা কাজ করে যাও। আমার বান্দাদের মধ্যে অল্পসংখ্যকই কৃতজ্ঞ।",
+      "en": "They made for him what he willed of elevated chambers, statues, bowls like reservoirs, and stationary kettles. [We said], \"Work, O family of David, in gratitude.\" And few of My servants are grateful."
+    },
+    {
+      "reference": "93:11",
+      "surah": 93,
+      "ayah": 11,
+      "surahNameArabic": "سُورَةُ الضُّحَىٰ",
+      "surahNameEnglish": "Ad-Dhuhaa",
+      "theme": "gratitude",
+      "bn": "এবং আপনার পালনকর্তার নেয়ামতের কথা প্রকাশ করুন।",
+      "en": "But as for the favor of your Lord, report [it]."
+    },
+    {
+      "reference": "3:191",
+      "surah": 3,
+      "ayah": 191,
+      "surahNameArabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surahNameEnglish": "Aal-i-Imraan",
+      "theme": "remembrance",
+      "bn": "যাঁরা দাঁড়িয়ে, বসে, ও শায়িত অবস্থায় আল্লাহকে স্মরণ করে এবং চিন্তা গবেষণা করে আসমান ও জমিন সৃষ্টির বিষযে, (তারা বলে) পরওয়ারদেগার! এসব তুমি অনর্থক সৃষ্টি করনি। সকল পবিত্রতা তোমারই, আমাদিগকে তুমি দোযখের শাস্তি থেকে বাঁচাও।",
+      "en": "Who remember Allah while standing or sitting or [lying] on their sides and give thought to the creation of the heavens and the earth, [saying], \"Our Lord, You did not create this aimlessly; exalted are You [above such a thing]; then protect us from the punishment of the Fire."
+    },
+    {
+      "reference": "8:2",
+      "surah": 8,
+      "ayah": 2,
+      "surahNameArabic": "سُورَةُ الأَنفَالِ",
+      "surahNameEnglish": "Al-Anfaal",
+      "theme": "remembrance",
+      "bn": "যারা ঈমানদার, তারা এমন যে, যখন আল্লাহর নাম নেয়া হয় তখন ভীত হয়ে পড়ে তাদের অন্তর। আর যখন তাদের সামনে পাঠ করা হয় কালাম, তখন তাদের ঈমান বেড়ে যায় এবং তারা স্বীয় পরওয়ার দেগারের প্রতি ভরসা পোষণ করে।",
+      "en": "The believers are only those who, when Allah is mentioned, their hearts become fearful, and when His verses are recited to them, it increases them in faith; and upon their Lord they rely -"
+    },
+    {
+      "reference": "13:28",
+      "surah": 13,
+      "ayah": 28,
+      "surahNameArabic": "سُورَةُ الرَّعۡدِ",
+      "surahNameEnglish": "Ar-Ra'd",
+      "theme": "remembrance",
+      "bn": "যারা বিশ্বাস স্থাপন করে এবং তাদের অন্তর আল্লাহর যিকির দ্বারা শান্তি লাভ করে; জেনে রাখ, আল্লাহর যিকির দ্বারাই অন্তর সমূহ শান্তি পায়।",
+      "en": "Those who have believed and whose hearts are assured by the remembrance of Allah. Unquestionably, by the remembrance of Allah hearts are assured.\""
+    },
+    {
+      "reference": "24:36",
+      "surah": 24,
+      "ayah": 36,
+      "surahNameArabic": "سُورَةُ النُّورِ",
+      "surahNameEnglish": "An-Noor",
+      "theme": "remembrance",
+      "bn": "আল্লাহ যেসব গৃহকে মর্যাদায় উন্নীত করার এবং সেগুলোতে তাঁর নাম উচ্চারণ করার আদেশ দিয়েছেন, সেখানে সকাল ও সন্ধ্যায় তাঁর পবিত্রতা ও মহিমা ঘোষণা করে;",
+      "en": "[Such niches are] in mosques which Allah has ordered to be raised and that His name be mentioned therein; exalting Him within them in the morning and the evenings"
+    },
+    {
+      "reference": "33:41",
+      "surah": 33,
+      "ayah": 41,
+      "surahNameArabic": "سُورَةُ الأَحۡزَابِ",
+      "surahNameEnglish": "Al-Ahzaab",
+      "theme": "remembrance",
+      "bn": "মুমিনগণ তোমরা আল্লাহকে অধিক পরিমাণে স্মরণ কর।",
+      "en": "O you who have believed, remember Allah with much remembrance"
+    },
+    {
+      "reference": "39:23",
+      "surah": 39,
+      "ayah": 23,
+      "surahNameArabic": "سُورَةُ الزُّمَرِ",
+      "surahNameEnglish": "Az-Zumar",
+      "theme": "remembrance",
+      "bn": "আল্লাহ উত্তম বাণী তথা কিতাব নাযিল করেছেন, যা সামঞ্জস্যপূর্ণ, পূনঃ পূনঃ পঠিত। এতে তাদের লোম কাঁটা দিয়ে উঠে চামড়ার উপর, যারা তাদের পালনকর্তাকে ভয় করে, এরপর তাদের চামড়া ও অন্তর আল্লাহর স্মরণে বিনম্র হয়। এটাই আল্লাহর পথ নির্দেশ, এর মাধ্যমে আল্লাহ যাকে ইচ্ছা পথ প্রদর্শন করেন। আর আল্লাহ যাকে গোমরাহ করেন, তার কোন পথপ্রদর্শক নেই।",
+      "en": "Allah has sent down the best statement: a consistent Book wherein is reiteration. The skins shiver therefrom of those who fear their Lord; then their skins and their hearts relax at the remembrance of Allah. That is the guidance of Allah by which He guides whom He wills. And one whom Allah leaves astray - for him there is no guide."
+    },
+    {
+      "reference": "50:16",
+      "surah": 50,
+      "ayah": 16,
+      "surahNameArabic": "سُورَةُ قٓ",
+      "surahNameEnglish": "Qaaf",
+      "theme": "remembrance",
+      "bn": "আমি মানুষ সৃষ্টি করেছি এবং তার মন নিভৃতে যে কুচিন্তা করে, সে সম্বন্ধেও আমি অবগত আছি। আমি তার গ্রীবাস্থিত ধমনী থেকেও অধিক নিকটবর্তী।",
+      "en": "And We have already created man and know what his soul whispers to him, and We are closer to him than [his] jugular vein"
+    },
+    {
+      "reference": "57:4",
+      "surah": 57,
+      "ayah": 4,
+      "surahNameArabic": "سُورَةُ الحَدِيدِ",
+      "surahNameEnglish": "Al-Hadid",
+      "theme": "remembrance",
+      "bn": "তিনি নভোমন্ডল ও ভূ-মন্ডল সৃষ্টি করেছেন ছয়দিনে, অতঃপর আরশের উপর সমাসীন হয়েছেন। তিনি জানেন যা ভূমিতে প্রবেশ করে ও যা ভূমি থেকে নির্গত হয় এবং যা আকাশ থেকে বর্ষিত হয় ও যা আকাশে উত্থিত হয়। তিনি তোমাদের সাথে আছেন তোমরা যেখানেই থাক। তোমরা যা কর, আল্লাহ তা দেখেন।",
+      "en": "It is He who created the heavens and earth in six days and then established Himself above the Throne. He knows what penetrates into the earth and what emerges from it and what descends from the heaven and what ascends therein; and He is with you wherever you are. And Allah, of what you do, is Seeing."
+    },
+    {
+      "reference": "62:10",
+      "surah": 62,
+      "ayah": 10,
+      "surahNameArabic": "سُورَةُ الجُمُعَةِ",
+      "surahNameEnglish": "Al-Jumu'a",
+      "theme": "remembrance",
+      "bn": "অতঃপর নামায সমাপ্ত হলে তোমরা পৃথিবীতে ছড়িয়ে পড় এবং আল্লাহর অনুগ্রহ তালাশ কর ও আল্লাহকে অধিক স্মরণ কর, যাতে তোমরা সফলকাম হও।",
+      "en": "And when the prayer has been concluded, disperse within the land and seek from the bounty of Allah, and remember Allah often that you may succeed."
+    },
+    {
+      "reference": "63:9",
+      "surah": 63,
+      "ayah": 9,
+      "surahNameArabic": "سُورَةُ المُنَافِقُونَ",
+      "surahNameEnglish": "Al-Munaafiqoon",
+      "theme": "remembrance",
+      "bn": "মুমিনগণ! তোমাদের ধন-সম্পদ ও সন্তান-সন্ততি যেন তোমাদেরকে আল্লাহর স্মরণ থেকে গাফেল না করে। যারা এ কারণে গাফেল হয়, তারাই তো ক্ষতিগ্রস্ত।",
+      "en": "O you who have believed, let not your wealth and your children divert you from remembrance of Allah. And whoever does that - then those are the losers."
+    },
+    {
+      "reference": "2:186",
+      "surah": 2,
+      "ayah": 186,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "mercy-forgiveness",
+      "bn": "আর আমার বান্দারা যখন তোমার কাছে জিজ্ঞেস করে আমার ব্যাপারে বস্তুতঃ আমি রয়েছি সন্নিকটে। যারা প্রার্থনা করে, তাদের প্রার্থনা কবুল করে নেই, যখন আমার কাছে প্রার্থনা করে। কাজেই আমার হুকুম মান্য করা এবং আমার প্রতি নিঃসংশয়ে বিশ্বাস করা তাদের একান্ত কর্তব্য। যাতে তারা সৎপথে আসতে পারে।",
+      "en": "And when My servants ask you, [O Muhammad], concerning Me - indeed I am near. I respond to the invocation of the supplicant when he calls upon Me. So let them respond to Me [by obedience] and believe in Me that they may be [rightly] guided."
+    },
+    {
+      "reference": "2:222",
+      "surah": 2,
+      "ayah": 222,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "mercy-forgiveness",
+      "bn": "আর তোমার কাছে জিজ্ঞেস করে হায়েয (ঋতু) সম্পর্কে। বলে দাও, এটা অশুচি। কাজেই তোমরা হায়েয অবস্থায় স্ত্রীগমন থেকে বিরত থাক। তখন পর্যন্ত তাদের নিকটবর্তী হবে না, যতক্ষণ না তারা পবিত্র হয়ে যায়। যখন উত্তম রূপে পরিশুদ্ধ হয়ে যাবে, তখন গমন কর তাদের কাছে, যেভাবে আল্লাহ তোমাদেরকে হুকুম দিয়েছেন। নিশ্চয়ই আল্লাহ তওবাকারী এবং অপবিত্রতা থেকে যারা বেঁচে থাকে তাদেরকে পছন্দ করেন।",
+      "en": "And they ask you about menstruation. Say, \"It is harm, so keep away from wives during menstruation. And do not approach them until they are pure. And when they have purified themselves, then come to them from where Allah has ordained for you. Indeed, Allah loves those who are constantly repentant and loves those who purify themselves.\""
+    },
+    {
+      "reference": "3:133",
+      "surah": 3,
+      "ayah": 133,
+      "surahNameArabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surahNameEnglish": "Aal-i-Imraan",
+      "theme": "mercy-forgiveness",
+      "bn": "তোমরা তোমাদের পালনকর্তার ক্ষমা এবং জান্নাতের দিকে ছুটে যাও যার সীমানা হচ্ছে আসমান ও যমীন, যা তৈরী করা হয়েছে পরহেযগারদের জন্য।",
+      "en": "And hasten to forgiveness from your Lord and a garden as wide as the heavens and earth, prepared for the righteous"
+    },
+    {
+      "reference": "3:134",
+      "surah": 3,
+      "ayah": 134,
+      "surahNameArabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surahNameEnglish": "Aal-i-Imraan",
+      "theme": "mercy-forgiveness",
+      "bn": "যারা স্বচ্ছলতায় ও অভাবের সময় ব্যয় করে, যারা নিজেদের রাগকে সংবরণ করে আর মানুষের প্রতি ক্ষমা প্রদর্শন করে, বস্তুতঃ আল্লাহ সৎকর্মশীলদিগকেই ভালবাসেন।",
+      "en": "Who spend [in the cause of Allah] during ease and hardship and who restrain anger and who pardon the people - and Allah loves the doers of good;"
+    },
+    {
+      "reference": "3:135",
+      "surah": 3,
+      "ayah": 135,
+      "surahNameArabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surahNameEnglish": "Aal-i-Imraan",
+      "theme": "mercy-forgiveness",
+      "bn": "তারা কখনও কোন অশ্লীল কাজ করে ফেললে কিংবা কোন মন্দ কাজে জড়িত হয়ে নিজের উপর জুলুম করে ফেললে আল্লাহকে স্মরণ করে এবং নিজের পাপের জন্য ক্ষমা প্রার্থনা করে। আল্লাহ ছাড়া আর কে পাপ ক্ষমা করবেন? তারা নিজের কৃতকর্মের জন্য হঠকারিতা প্রদর্শন করে না এবং জেনে-শুনে তাই করতে থাকে না।",
+      "en": "And those who, when they commit an immorality or wrong themselves [by transgression], remember Allah and seek forgiveness for their sins - and who can forgive sins except Allah? - and [who] do not persist in what they have done while they know."
+    },
+    {
+      "reference": "4:110",
+      "surah": 4,
+      "ayah": 110,
+      "surahNameArabic": "سُورَةُ النِّسَاءِ",
+      "surahNameEnglish": "An-Nisaa",
+      "theme": "mercy-forgiveness",
+      "bn": "যে গোনাহ, করে কিংবা নিজের অনিষ্ট করে, অতঃপর আল্লাহর কাছে ক্ষমা প্রার্থনা করে, সে আল্লাহকে ক্ষমাশীল, করুণাময় পায়।",
+      "en": "And whoever does a wrong or wrongs himself but then seeks forgiveness of Allah will find Allah Forgiving and Merciful."
+    },
+    {
+      "reference": "6:54",
+      "surah": 6,
+      "ayah": 54,
+      "surahNameArabic": "سُورَةُ الأَنۡعَامِ",
+      "surahNameEnglish": "Al-An'aam",
+      "theme": "mercy-forgiveness",
+      "bn": "আর যখন তারা আপনার কাছে আসবে যারা আমার নিদর্শনসমূহে বিশ্বাস করে, তখন আপনি বলে দিনঃ তোমাদের উপর শান্তি বর্ষিত হোক। তোমাদের পালনকর্তা রহমত করা নিজ দায়িত্বে লিখে নিয়েছেন যে, তোমাদের মধ্যে যে কেউ অজ্ঞতাবশতঃ কোন মন্দ কাজ করে, অনন্তর এরপরে তওবা করে নেয় এবং সৎ হয়ে যায়, তবে তিনি অত্যন্ত ক্ষমাশীল, করুণাময়।",
+      "en": "And when those come to you who believe in Our verses, say, \"Peace be upon you. Your Lord has decreed upon Himself mercy: that any of you who does wrong out of ignorance and then repents after that and corrects himself - indeed, He is Forgiving and Merciful.\""
+    },
+    {
+      "reference": "7:156",
+      "surah": 7,
+      "ayah": 156,
+      "surahNameArabic": "سُورَةُ الأَعۡرَافِ",
+      "surahNameEnglish": "Al-A'raaf",
+      "theme": "mercy-forgiveness",
+      "bn": "আর পৃথিবীতে এবং আখেরাতে আমাদের জন্য কল্যাণ লিখে দাও। আমরা তোমার দিকে প্রত্যাবর্তন করছি। আল্লাহ তা’আলা বললেন, আমার আযাব তারই উপর পরিব্যাপ্ত। সুতরাং তা তাদের জন্য লিখে দেব যারা ভয় রাখে, যাকাত দান করে এবং যারা আমার আয়তসমুহের উপর বিশ্বাস স্থাপন করে।",
+      "en": "And decree for us in this world [that which is] good and [also] in the Hereafter; indeed, we have turned back to You.\" [Allah] said, \"My punishment - I afflict with it whom I will, but My mercy encompasses all things.\" So I will decree it [especially] for those who fear Me and give zakah and those who believe in Our verses -"
+    },
+    {
+      "reference": "11:90",
+      "surah": 11,
+      "ayah": 90,
+      "surahNameArabic": "سُورَةُ هُودٍ",
+      "surahNameEnglish": "Hud",
+      "theme": "mercy-forgiveness",
+      "bn": "আর তোমাদের পালনকর্তার কাছে মার্জনা চাও এবং তাঁরই পানে ফিরে এসো নিশ্চয়ই আমার পরওয়ারদেগার খুবই মেহেরবান অতিস্নেহময়।",
+      "en": "And ask forgiveness of your Lord and then repent to Him. Indeed, my Lord is Merciful and Affectionate.\""
+    },
+    {
+      "reference": "24:22",
+      "surah": 24,
+      "ayah": 22,
+      "surahNameArabic": "سُورَةُ النُّورِ",
+      "surahNameEnglish": "An-Noor",
+      "theme": "mercy-forgiveness",
+      "bn": "তোমাদের মধ্যে যারা উচ্চমর্যাদা ও আর্থিক প্রাচুর্যের অধিকারী, তারা যেন কসম না খায় যে, তারা আত্নীয়-স্বজনকে, অভাবগ্রস্তকে এবং আল্লাহর পথে হিজরতকারীদেরকে কিছুই দেবে না। তাদের ক্ষমা করা উচিত এবং দোষক্রটি উপেক্ষা করা উচিত। তোমরা কি কামনা কর না যে, আল্লাহ তোমাদেরকে ক্ষমা করেন? আল্লাহ ক্ষমাশীল, পরম করুণাময়।",
+      "en": "And let not those of virtue among you and wealth swear not to give [aid] to their relatives and the needy and the emigrants for the cause of Allah, and let them pardon and overlook. Would you not like that Allah should forgive you? And Allah is Forgiving and Merciful."
+    },
+    {
+      "reference": "25:70",
+      "surah": 25,
+      "ayah": 70,
+      "surahNameArabic": "سُورَةُ الفُرۡقَانِ",
+      "surahNameEnglish": "Al-Furqaan",
+      "theme": "mercy-forgiveness",
+      "bn": "কিন্তু যারা তওবা করে বিশ্বাস স্থাপন করে এবং সৎকর্ম করে, আল্লাহ তাদের গোনাহকে পুন্য দ্বারা পরিবর্তত করে এবং দেবেন। আল্লাহ ক্ষমাশীল, পরম দয়ালু।",
+      "en": "Except for those who repent, believe and do righteous work. For them Allah will replace their evil deeds with good. And ever is Allah Forgiving and Merciful."
+    },
+    {
+      "reference": "39:53",
+      "surah": 39,
+      "ayah": 53,
+      "surahNameArabic": "سُورَةُ الزُّمَرِ",
+      "surahNameEnglish": "Az-Zumar",
+      "theme": "mercy-forgiveness",
+      "bn": "বলুন, হে আমার বান্দাগণ যারা নিজেদের উপর যুলুম করেছ তোমরা আল্লাহর রহমত থেকে নিরাশ হয়ো না। নিশ্চয় আল্লাহ সমস্ত গোনাহ মাফ করেন। তিনি ক্ষমাশীল, পরম দয়ালু।",
+      "en": "Say, \"O My servants who have transgressed against themselves [by sinning], do not despair of the mercy of Allah. Indeed, Allah forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.\""
+    },
+    {
+      "reference": "40:60",
+      "surah": 40,
+      "ayah": 60,
+      "surahNameArabic": "سُورَةُ غَافِرٍ",
+      "surahNameEnglish": "Ghafir",
+      "theme": "mercy-forgiveness",
+      "bn": "তোমাদের পালনকর্তা বলেন, তোমরা আমাকে ডাক, আমি সাড়া দেব। যারা আমার এবাদতে অহংকার করে তারা সত্বরই জাহান্নামে দাখিল হবে লাঞ্ছিত হয়ে।",
+      "en": "And your Lord says, \"Call upon Me; I will respond to you.\" Indeed, those who disdain My worship will enter Hell [rendered] contemptible."
+    },
+    {
+      "reference": "42:25",
+      "surah": 42,
+      "ayah": 25,
+      "surahNameArabic": "سُورَةُ الشُّورَىٰ",
+      "surahNameEnglish": "Ash-Shura",
+      "theme": "mercy-forgiveness",
+      "bn": "তিনি তাঁর বান্দাদের তওবা কবুল করেন পাপসমূহ মার্জনা করেন এবং তোমাদের কৃত বিষয় সম্পর্কে অবগত রয়েছেন।",
+      "en": "And it is He who accepts repentance from his servants and pardons misdeeds, and He knows what you do."
+    },
+    {
+      "reference": "66:8",
+      "surah": 66,
+      "ayah": 8,
+      "surahNameArabic": "سُورَةُ التَّحۡرِيمِ",
+      "surahNameEnglish": "At-Tahrim",
+      "theme": "mercy-forgiveness",
+      "bn": "মুমিনগণ! তোমরা আল্লাহ তা’আলার কাছে তওবা কর-আন্তরিক তওবা। আশা করা যায়, তোমাদের পালনকর্তা তোমাদের মন্দ কর্মসমূহ মোচন করে দেবেন এবং তোমাদেরকে দাখিল করবেন জান্নাতে, যার তলদেশে নদী প্রবাহিত। সেদিন আল্লাহ নবী এবং তাঁর বিশ্বাসী সহচরদেরকে অপদস্থ করবেন না। তাদের নূর তাদের সামনে ও ডানদিকে ছুটোছুটি করবে। তারা বলবেঃ হে আমাদের পালনকর্তা, আমাদের নূরকে পূর্ণ করে দিন এবং আমাদেরকে ক্ষমা করুন। নিশ্চয় আপনি সবকিছুর উপর সর্ব শক্তিমান।",
+      "en": "O you who have believed, repent to Allah with sincere repentance. Perhaps your Lord will remove from you your misdeeds and admit you into gardens beneath which rivers flow [on] the Day when Allah will not disgrace the Prophet and those who believed with him. Their light will proceed before them and on their right; they will say, \"Our Lord, perfect for us our light and forgive us. Indeed, You are over all things competent.\""
+    },
+    {
+      "reference": "42:19",
+      "surah": 42,
+      "ayah": 19,
+      "surahNameArabic": "سُورَةُ الشُّورَىٰ",
+      "surahNameEnglish": "Ash-Shura",
+      "theme": "trust-in-allah",
+      "bn": "আল্লাহ তাঁর বান্দাদের প্রতি দয়ালু। তিনি যাকে ইচ্ছা, রিযিক দান করেন। তিনি প্রবল, পরাক্রমশালী।",
+      "en": "Allah is Subtle with His servants; He gives provisions to whom He wills. And He is the Powerful, the Exalted in Might."
+    },
+    {
+      "reference": "3:159",
+      "surah": 3,
+      "ayah": 159,
+      "surahNameArabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surahNameEnglish": "Aal-i-Imraan",
+      "theme": "trust-in-allah",
+      "bn": "আল্লাহর রহমতেই আপনি তাদের জন্য কোমল হৃদয় হয়েছেন পক্ষান্তরে আপনি যদি রাগ ও কঠিন হৃদয় হতেন তাহলে তারা আপনার কাছ থেকে বিচ্ছিন্ন হয়ে যেতো। কাজেই আপনি তাদের ক্ষমা করে দিন এবং তাদের জন্য মাগফেরাত কামনা করুন এবং কাজে কর্মে তাদের পরামর্শ করুন। অতঃপর যখন কোন কাজের সিদ্ধান্ত গ্রহণ করে ফেলেন, তখন আল্লাহ তা’আলার উপর ভরসা করুন আল্লাহ তাওয়াক্কুল কারীদের ভালবাসেন।",
+      "en": "So by mercy from Allah, [O Muhammad], you were lenient with them. And if you had been rude [in speech] and harsh in heart, they would have disbanded from about you. So pardon them and ask forgiveness for them and consult them in the matter. And when you have decided, then rely upon Allah. Indeed, Allah loves those who rely [upon Him]."
+    },
+    {
+      "reference": "3:173",
+      "surah": 3,
+      "ayah": 173,
+      "surahNameArabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surahNameEnglish": "Aal-i-Imraan",
+      "theme": "trust-in-allah",
+      "bn": "যাদেরকে লোকেরা বলেছে যে, তোমাদের সাথে মোকাবেলা করার জন্য লোকেরা সমাবেশ করেছে বহু সাজ-সরঞ্জাম; তাদের ভয় কর। তখন তাদের বিশ্বাস আরও দৃঢ়তর হয়ে যায় এবং তারা বলে, আমাদের জন্য আল্লাহই যথেষ্ট; কতই না চমৎকার কামিয়াবীদানকারী।",
+      "en": "Those to whom hypocrites said, \"Indeed, the people have gathered against you, so fear them.\" But it [merely] increased them in faith, and they said, \"Sufficient for us is Allah, and [He is] the best Disposer of affairs.\""
+    },
+    {
+      "reference": "9:51",
+      "surah": 9,
+      "ayah": 51,
+      "surahNameArabic": "سُورَةُ التَّوۡبَةِ",
+      "surahNameEnglish": "At-Tawba",
+      "theme": "trust-in-allah",
+      "bn": "আপনি বলুন, আমাদের কাছে কিছুই পৌঁছবে না, কিন্তু যা আল্লাহ আমাদের জন্য রেখেছেন; তিনি আমাদের কার্যনির্বাহক। আল্লাহর উপরই মুমিনদের ভরসা করা উচিত।",
+      "en": "Say, \"Never will we be struck except by what Allah has decreed for us; He is our protector.\" And upon Allah let the believers rely."
+    },
+    {
+      "reference": "11:88",
+      "surah": 11,
+      "ayah": 88,
+      "surahNameArabic": "سُورَةُ هُودٍ",
+      "surahNameEnglish": "Hud",
+      "theme": "trust-in-allah",
+      "bn": "শোয়ায়েব (আঃ) বললেন-হে দেশবাসী, তোমরা কি মনে কর! আমি যদি আমার পরওয়ারদেগারের পক্ষ হতে সুস্পষ্ট দলীলের উপর কায়েম থাকি আর তিনি যদি নিজের তরফ হতে আমাকে উত্তম রিযিক দান করে থাকেন, (তবে কি আমি তাঁর হুকুম অমান্য করতে পারি?) আর আমি চাই না যে তোমাদেরকে যা ছাড়াতে চাই পরে নিজেই সে কাজে লিপ্ত হব, আমি তো যথাসাধ্য শোধরাতে চাই। আল্লাহর মদদ দ্বারাই কিন্তু কাজ হয়ে থাকে, আমি তাঁর উপরই নির্ভর করি এবং তাঁরই প্রতি ফিরে যাই।",
+      "en": "He said, \"O my people, have you considered: if I am upon clear evidence from my Lord and He has provided me with a good provision from Him...? And I do not intend to differ from you in that which I have forbidden you; I only intend reform as much as I am able. And my success is not but through Allah. Upon him I have relied, and to Him I return."
+    },
+    {
+      "reference": "12:67",
+      "surah": 12,
+      "ayah": 67,
+      "surahNameArabic": "سُورَةُ يُوسُفَ",
+      "surahNameEnglish": "Yusuf",
+      "theme": "trust-in-allah",
+      "bn": "ইয়াকুব বললেনঃ হে আমার বৎসগণ! সবাই একই প্রবেশদ্বার দিয়ে যেয়ো না, বরং পৃথক পৃথক দরজা দিয়ে প্রবেশ করো। আল্লাহর কোন বিধান থেকে আমি তোমাদেরকে রক্ষা করতে পারি না। নির্দেশ আল্লাহরই চলে। তাঁরই উপর আমি ভরসা করি এবং তাঁরই উপর ভরসা করা উচিত ভরসাকারীদের।",
+      "en": "And he said, \"O my sons, do not enter from one gate but enter from different gates; and I cannot avail you against [the decree of] Allah at all. The decision is only for Allah; upon Him I have relied, and upon Him let those who would rely [indeed] rely.\""
+    },
+    {
+      "reference": "14:12",
+      "surah": 14,
+      "ayah": 12,
+      "surahNameArabic": "سُورَةُ إِبۡرَاهِيمَ",
+      "surahNameEnglish": "Ibrahim",
+      "theme": "trust-in-allah",
+      "bn": "আমাদের আল্লাহর উপর ভরসা না করার কি কারণ থাকতে পারে, অথচ তিনি আমাদেরকে আমাদের পথ বলে দিয়েছেন। তোমরা আমাদেরকে যে পীড়ন করেছ, তজ্জন্যে আমরা সবর করব। ভরসাকারিগণের আল্লাহর উপরই ভরসা করা উচিত।",
+      "en": "And why should we not rely upon Allah while He has guided us to our [good] ways. And we will surely be patient against whatever harm you should cause us. And upon Allah let those who would rely [indeed] rely.\""
+    },
+    {
+      "reference": "33:3",
+      "surah": 33,
+      "ayah": 3,
+      "surahNameArabic": "سُورَةُ الأَحۡزَابِ",
+      "surahNameEnglish": "Al-Ahzaab",
+      "theme": "trust-in-allah",
+      "bn": "আপনি আল্লাহর উপর ভরসা করুন। কার্যনির্বাহীরূপে আল্লাহই যথেষ্ট।",
+      "en": "And rely upon Allah; and sufficient is Allah as Disposer of affairs."
+    },
+    {
+      "reference": "64:13",
+      "surah": 64,
+      "ayah": 13,
+      "surahNameArabic": "سُورَةُ التَّغَابُنِ",
+      "surahNameEnglish": "At-Taghaabun",
+      "theme": "trust-in-allah",
+      "bn": "আল্লাহ তিনি ব্যতীত কোন মাবুদ নেই। অতএব মুমিনগণ আল্লাহর উপর ভরসা করুক।",
+      "en": "Allah - there is no deity except Him. And upon Allah let the believers rely."
+    },
+    {
+      "reference": "65:3",
+      "surah": 65,
+      "ayah": 3,
+      "surahNameArabic": "سُورَةُ الطَّلَاقِ",
+      "surahNameEnglish": "At-Talaaq",
+      "theme": "trust-in-allah",
+      "bn": "এবং তাকে তার ধারণাতীত জায়গা থেকে রিযিক দেবেন। যে ব্যক্তি আল্লাহর উপর ভরসা করে তার জন্যে তিনিই যথেষ্ট। আল্লাহ তার কাজ পূর্ণ করবেন। আল্লাহ সবকিছুর জন্যে একটি পরিমাণ স্থির করে রেখেছেন।",
+      "en": "And will provide for him from where he does not expect. And whoever relies upon Allah - then He is sufficient for him. Indeed, Allah will accomplish His purpose. Allah has already set for everything a [decreed] extent."
+    },
+    {
+      "reference": "2:201",
+      "surah": 2,
+      "ayah": 201,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "supplication",
+      "bn": "আর তাদের মধ্যে কেউ কেউ বলে-হে পরওয়ারদেগার! আমাদিগকে দুনয়াতেও কল্যাণ দান কর এবং আখেরাতেও কল্যাণ দান কর এবং আমাদিগকে দোযখের আযাব থেকে রক্ষা কর।",
+      "en": "But among them is he who says, \"Our Lord, give us in this world [that which is] good and in the Hereafter [that which is] good and protect us from the punishment of the Fire.\""
+    },
+    {
+      "reference": "2:286",
+      "surah": 2,
+      "ayah": 286,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "hope-ease",
+      "bn": "আল্লাহ কাউকে তার সাধ্যাতীত কোন কাজের ভার দেন না, সে তাই পায় যা সে উপার্জন করে এবং তাই তার উপর বর্তায় যা সে করে। হে আমাদের পালনকর্তা, যদি আমরা ভুলে যাই কিংবা ভুল করি, তবে আমাদেরকে অপরাধী করো না। হে আমাদের পালনকর্তা! এবং আমাদের উপর এমন দায়িত্ব অর্পণ করো না, যেমন আমাদের পূর্ববর্তীদের উপর অর্পণ করেছ, হে আমাদের প্রভূ! এবং আমাদের দ্বারা ঐ বোঝা বহন করিও না, যা বহন করার শক্তি আমাদের নাই। আমাদের পাপ মোচন কর। আমাদেরকে ক্ষমা কর এবং আমাদের প্রতি দয়া কর। তুমিই আমাদের প্রভু। সুতরাং কাফের সম্প্রদায়ের বিরুদ্ধে আমাদের কে সাহায্যে কর।",
+      "en": "Allah does not charge a soul except [with that within] its capacity. It will have [the consequence of] what [good] it has gained, and it will bear [the consequence of] what [evil] it has earned. \"Our Lord, do not impose blame upon us if we have forgotten or erred. Our Lord, and lay not upon us a burden like that which You laid upon those before us. Our Lord, and burden us not with that which we have no ability to bear. And pardon us; and forgive us; and have mercy upon us. You are our protector, so give us victory over the disbelieving people.\""
+    },
+    {
+      "reference": "6:160",
+      "surah": 6,
+      "ayah": 160,
+      "surahNameArabic": "سُورَةُ الأَنۡعَامِ",
+      "surahNameEnglish": "Al-An'aam",
+      "theme": "hope-ease",
+      "bn": "যে একটি সৎকর্ম করবে, সে তার দশগুণ পাবে এবং যে, একটি মন্দ কাজ করবে, সে তার সমান শাস্তিই পাবে। বস্তুতঃ তাদের প্রতি জুলুম করা হবে না।",
+      "en": "Whoever comes [on the Day of Judgement] with a good deed will have ten times the like thereof [to his credit], and whoever comes with an evil deed will not be recompensed except the like thereof; and they will not be wronged."
+    },
+    {
+      "reference": "16:97",
+      "surah": 16,
+      "ayah": 97,
+      "surahNameArabic": "سُورَةُ النَّحۡلِ",
+      "surahNameEnglish": "An-Nahl",
+      "theme": "hope-ease",
+      "bn": "যে সৎকর্ম সম্পাদন করে এবং সে ঈমাণদার, পুরুষ হোক কিংবা নারী আমি তাকে পবিত্র জীবন দান করব এবং প্রতিদানে তাদেরকে তাদের উত্তম কাজের কারণে প্রাপ্য পুরষ্কার দেব যা তারা করত।",
+      "en": "Whoever does righteousness, whether male or female, while he is a believer - We will surely cause him to live a good life, and We will surely give them their reward [in the Hereafter] according to the best of what they used to do."
+    },
+    {
+      "reference": "29:69",
+      "surah": 29,
+      "ayah": 69,
+      "surahNameArabic": "سُورَةُ العَنكَبُوتِ",
+      "surahNameEnglish": "Al-Ankaboot",
+      "theme": "hope-ease",
+      "bn": "যারা আমার পথে সাধনায় আত্মনিয়োগ করে, আমি অবশ্যই তাদেরকে আমার পথে পরিচালিত করব। নিশ্চয় আল্লাহ সৎকর্মপরায়ণদের সাথে আছেন।",
+      "en": "And those who strive for Us - We will surely guide them to Our ways. And indeed, Allah is with the doers of good."
+    },
+    {
+      "reference": "47:7",
+      "surah": 47,
+      "ayah": 7,
+      "surahNameArabic": "سُورَةُ مُحَمَّدٍ",
+      "surahNameEnglish": "Muhammad",
+      "theme": "hope-ease",
+      "bn": "হে বিশ্বাসীগণ! যদি তোমরা আল্লাহকে সাহায্য কর, আল্লাহ তোমাদেরকে সাহায্য করবেন এবং তোমাদের পা দৃঢ়প্রতিষ্ঠ করবেন।",
+      "en": "O you who have believed, if you support Allah, He will support you and plant firmly your feet."
+    },
+    {
+      "reference": "53:39",
+      "surah": 53,
+      "ayah": 39,
+      "surahNameArabic": "سُورَةُ النَّجۡمِ",
+      "surahNameEnglish": "An-Najm",
+      "theme": "hope-ease",
+      "bn": "এবং মানুষ তাই পায়, যা সে করে,",
+      "en": "And that there is not for man except that [good] for which he strives"
+    },
+    {
+      "reference": "65:2",
+      "surah": 65,
+      "ayah": 2,
+      "surahNameArabic": "سُورَةُ الطَّلَاقِ",
+      "surahNameEnglish": "At-Talaaq",
+      "theme": "hope-ease",
+      "bn": "অতঃপর তারা যখন তাদের ইদ্দতকালে পৌঁছে, তখন তাদেরকে যথোপযুক্ত পন্থায় রেখে দেবে অথবা যথোপযুক্ত পন্থায় ছেড়ে দেবে এবং তোমাদের মধ্য থেকে দু’জন নির্ভরযোগ্য লোককে সাক্ষী রাখবে। তোমরা আল্লাহর উদ্দেশ্যে সাক্ষ্য দিবে। এতদ্দ্বারা যে ব্যক্তি আল্লাহ ও পরকালে বিশ্বাস করে, তাকে উপদেশ দেয়া হচ্ছে। আর যে আল্লাহকে ভয় করে, আল্লাহ তার জন্যে নিস্কৃতির পথ করে দেবেন।",
+      "en": "And when they have [nearly] fulfilled their term, either retain them according to acceptable terms or part with them according to acceptable terms. And bring to witness two just men from among you and establish the testimony for [the acceptance of] Allah. That is instructed to whoever should believe in Allah and the Last day. And whoever fears Allah - He will make for him a way out"
+    },
+    {
+      "reference": "65:7",
+      "surah": 65,
+      "ayah": 7,
+      "surahNameArabic": "سُورَةُ الطَّلَاقِ",
+      "surahNameEnglish": "At-Talaaq",
+      "theme": "hope-ease",
+      "bn": "বিত্তশালী ব্যক্তি তার বিত্ত অনুযায়ী ব্যয় করবে। যে ব্যক্তি সীমিত পরিমাণে রিযিকপ্রাপ্ত, সে আল্লাহ যা দিয়েছেন, তা থেকে ব্যয় করবে। আল্লাহ যাকে যা দিয়েছেন, তদপেক্ষা বেশী ব্যয় করার আদেশ কাউকে করেন না। আল্লাহ কষ্টের পর সুখ দেবেন।",
+      "en": "Let a man of wealth spend from his wealth, and he whose provision is restricted - let him spend from what Allah has given him. Allah does not charge a soul except [according to] what He has given it. Allah will bring about, after hardship, ease."
+    },
+    {
+      "reference": "87:8",
+      "surah": 87,
+      "ayah": 8,
+      "surahNameArabic": "سُورَةُ الأَعۡلَىٰ",
+      "surahNameEnglish": "Al-A'laa",
+      "theme": "hope-ease",
+      "bn": "আমি আপনার জন্যে সহজ শরীয়ত সহজতর করে দেবো।",
+      "en": "And We will ease you toward ease."
+    },
+    {
+      "reference": "94:5",
+      "surah": 94,
+      "ayah": 5,
+      "surahNameArabic": "سُورَةُ الشَّرۡحِ",
+      "surahNameEnglish": "Ash-Sharh",
+      "theme": "hope-ease",
+      "bn": "নিশ্চয় কষ্টের সাথে স্বস্তি রয়েছে।",
+      "en": "For indeed, with hardship [will be] ease."
+    },
+    {
+      "reference": "94:6",
+      "surah": 94,
+      "ayah": 6,
+      "surahNameArabic": "سُورَةُ الشَّرۡحِ",
+      "surahNameEnglish": "Ash-Sharh",
+      "theme": "hope-ease",
+      "bn": "নিশ্চয় কষ্টের সাথে স্বস্তি রয়েছে।",
+      "en": "Indeed, with hardship [will be] ease."
+    },
+    {
+      "reference": "2:245",
+      "surah": 2,
+      "ayah": 245,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "charity",
+      "bn": "এমন কে আছে যে, আল্লাহকে করজ দেবে, উত্তম করজ; অতঃপর আল্লাহ তাকে দ্বিগুণ-বহুগুণ বৃদ্ধি করে দিবেন। আল্লাহই সংকোচিত করেন এবং তিনিই প্রশস্ততা দান করেন এবং তাঁরই নিকট তোমরা সবাই ফিরে যাবে।",
+      "en": "Who is it that would loan Allah a goodly loan so He may multiply it for him many times over? And it is Allah who withholds and grants abundance, and to Him you will be returned."
+    },
+    {
+      "reference": "2:261",
+      "surah": 2,
+      "ayah": 261,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "charity",
+      "bn": "যারা আল্লাহর রাস্তায় স্বীয় ধন সম্পদ ব্যয় করে, তাদের উদাহরণ একটি বীজের মত, যা থেকে সাতটি শীষ জন্মায়। প্রত্যেকটি শীষে একশ করে দানা থাকে। আল্লাহ অতি দানশীল, সর্বজ্ঞ।",
+      "en": "The example of those who spend their wealth in the way of Allah is like a seed [of grain] which grows seven spikes; in each spike is a hundred grains. And Allah multiplies [His reward] for whom He wills. And Allah is all-Encompassing and Knowing."
+    },
+    {
+      "reference": "2:267",
+      "surah": 2,
+      "ayah": 267,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "charity",
+      "bn": "হে ঈমানদারগণ! তোমরা স্বীয় উপার্জন থেকে এবং যা আমি তোমাদের জন্যে ভূমি থেকে উৎপন্ন করেছি, তা থেকে উৎকৃষ্ট বস্তু ব্যয় কর এবং তা থেকে নিকৃষ্ট জিনিস ব্যয় করতে মনস্থ করো না। কেননা, তা তোমরা কখনও গ্রহণ করবে না; তবে যদি তোমরা চোখ বন্ধ করে নিয়ে নাও। জেনে রেখো, আল্লাহ অভাব মুক্ত, প্রশংসিত।",
+      "en": "O you who have believed, spend from the good things which you have earned and from that which We have produced for you from the earth. And do not aim toward the defective therefrom, spending [from that] while you would not take it [yourself] except with closed eyes. And know that Allah is Free of need and Praiseworthy."
+    },
+    {
+      "reference": "2:274",
+      "surah": 2,
+      "ayah": 274,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "charity",
+      "bn": "যারা স্বীয় ধন-সম্পদ ব্যয় করে, রাত্রে ও দিনে, গোপনে ও প্রকাশ্যে। তাদের জন্যে তাদের সওয়াব রয়েছে তাদের পালনকর্তার কাছে। তাদের কোন আশংঙ্কা নেই এবং তারা চিন্তিত ও হবে না।",
+      "en": "Those who spend their wealth [in Allah 's way] by night and by day, secretly and publicly - they will have their reward with their Lord. And no fear will there be concerning them, nor will they grieve."
+    },
+    {
+      "reference": "3:92",
+      "surah": 3,
+      "ayah": 92,
+      "surahNameArabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surahNameEnglish": "Aal-i-Imraan",
+      "theme": "charity",
+      "bn": "কস্মিণকালেও কল্যাণ লাভ করতে পারবে না, যদি তোমাদের প্রিয় বস্তু থেকে তোমরা ব্যয় না কর। আর তোমরা যদি কিছু ব্যয় করবে আল্লাহ তা জানেন।",
+      "en": "Never will you attain the good [reward] until you spend [in the way of Allah] from that which you love. And whatever you spend - indeed, Allah is Knowing of it."
+    },
+    {
+      "reference": "30:38",
+      "surah": 30,
+      "ayah": 38,
+      "surahNameArabic": "سُورَةُ الرُّومِ",
+      "surahNameEnglish": "Ar-Room",
+      "theme": "charity",
+      "bn": "আত্নীয়-স্বজনকে তাদের প্রাপ্য দিন এবং মিসকীন ও মুসাফিরদেরও। এটা তাদের জন্যে উত্তম, যারা আল্লাহর সন্তুষ্টি কামনা করে। তারাই সফলকাম।",
+      "en": "So give the relative his right, as well as the needy and the traveler. That is best for those who desire the countenance of Allah, and it is they who will be the successful."
+    },
+    {
+      "reference": "57:18",
+      "surah": 57,
+      "ayah": 18,
+      "surahNameArabic": "سُورَةُ الحَدِيدِ",
+      "surahNameEnglish": "Al-Hadid",
+      "theme": "charity",
+      "bn": "নিশ্চয় দানশীল ব্যক্তি ও দানশীলা নারী, যারা আল্লাহকে উত্তমরূপে ধার দেয়, তাদেরকে দেয়া হবে বহুগুণ এবং তাদের জন্যে রয়েছে সম্মানজনক পুরস্কার।",
+      "en": "Indeed, the men who practice charity and the women who practice charity and [they who] have loaned Allah a goodly loan - it will be multiplied for them, and they will have a noble reward."
+    },
+    {
+      "reference": "63:10",
+      "surah": 63,
+      "ayah": 10,
+      "surahNameArabic": "سُورَةُ المُنَافِقُونَ",
+      "surahNameEnglish": "Al-Munaafiqoon",
+      "theme": "charity",
+      "bn": "আমি তোমাদেরকে যা দিয়েছি, তা থেকে মৃত্যু আসার আগেই ব্যয় কর। অন্যথায় সে বলবেঃ হে আমার পালনকর্তা, আমাকে আরও কিছুকাল অবকাশ দিলে না কেন? তাহলে আমি সদকা করতাম এবং সৎকর্মীদের অন্তর্ভুক্ত হতাম।",
+      "en": "And spend [in the way of Allah] from what We have provided you before death approaches one of you and he says, \"My Lord, if only You would delay me for a brief term so I would give charity and be among the righteous.\""
+    },
+    {
+      "reference": "64:16",
+      "surah": 64,
+      "ayah": 16,
+      "surahNameArabic": "سُورَةُ التَّغَابُنِ",
+      "surahNameEnglish": "At-Taghaabun",
+      "theme": "charity",
+      "bn": "অতএব তোমরা যথাসাধ্য আল্লাহকে ভয় কর, শুন, আনুগত্য কর এবং ব্যয় কর। এটা তোমাদের জন্যে কল্যাণকর। যারা মনের কার্পন্য থেকে মুক্ত, তারাই সফলকাম।",
+      "en": "So fear Allah as much as you are able and listen and obey and spend [in the way of Allah]; it is better for your selves. And whoever is protected from the stinginess of his soul - it is those who will be the successful."
+    },
+    {
+      "reference": "76:8",
+      "surah": 76,
+      "ayah": 8,
+      "surahNameArabic": "سُورَةُ الإِنسَانِ",
+      "surahNameEnglish": "Al-Insaan",
+      "theme": "charity",
+      "bn": "তারা আল্লাহর প্রেমে অভাবগ্রস্ত, এতীম ও বন্দীকে আহার্য দান করে।",
+      "en": "And they give food in spite of love for it to the needy, the orphan, and the captive,"
+    },
+    {
+      "reference": "92:18",
+      "surah": 92,
+      "ayah": 18,
+      "surahNameArabic": "سُورَةُ اللَّيۡلِ",
+      "surahNameEnglish": "Al-Lail",
+      "theme": "charity",
+      "bn": "যে আত্নশুদ্ধির জন্যে তার ধন-সম্পদ দান করে।",
+      "en": "[He] who gives [from] his wealth to purify himself"
+    },
+    {
+      "reference": "2:263",
+      "surah": 2,
+      "ayah": 263,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "character-justice",
+      "bn": "নম্র কথা বলে দেয়া এবং ক্ষমা প্রদর্শন করা ঐ দান খয়রাত অপেক্ষা উত্তম, যার পরে কষ্ট দেয়া হয়। আল্লাহ তা’আলা সম্পদশালী, সহিঞ্চু।",
+      "en": "Kind speech and forgiveness are better than charity followed by injury. And Allah is Free of need and Forbearing."
+    },
+    {
+      "reference": "4:58",
+      "surah": 4,
+      "ayah": 58,
+      "surahNameArabic": "سُورَةُ النِّسَاءِ",
+      "surahNameEnglish": "An-Nisaa",
+      "theme": "character-justice",
+      "bn": "নিশ্চয়ই আল্লাহ তোমাদিগকে নির্দেশ দেন যে, তোমরা যেন প্রাপ্য আমানতসমূহ প্রাপকদের নিকট পৌছে দাও। আর যখন তোমরা মানুষের কোন বিচার-মীমাংসা করতে আরম্ভ কর, তখন মীমাংসা কর ন্যায় ভিত্তিক। আল্লাহ তোমাদিগকে সদুপদেশ দান করেন। নিশ্চয়ই আল্লাহ শ্রবণকারী, দর্শনকারী।",
+      "en": "Indeed, Allah commands you to render trusts to whom they are due and when you judge between people to judge with justice. Excellent is that which Allah instructs you. Indeed, Allah is ever Hearing and Seeing."
+    },
+    {
+      "reference": "4:86",
+      "surah": 4,
+      "ayah": 86,
+      "surahNameArabic": "سُورَةُ النِّسَاءِ",
+      "surahNameEnglish": "An-Nisaa",
+      "theme": "character-justice",
+      "bn": "আর তোমাদেরকে যদি কেউ দোয়া করে, তাহলে তোমরাও তার জন্য দোয়া কর; তারচেয়ে উত্তম দোয়া অথবা তারই মত ফিরিয়ে বল। নিশ্চয়ই আল্লাহ সর্ব বিষয়ে হিসাব-নিকাশ গ্রহণকারী।",
+      "en": "And when you are greeted with a greeting, greet [in return] with one better than it or [at least] return it [in a like manner]. Indeed, Allah is ever, over all things, an Accountant."
+    },
+    {
+      "reference": "5:8",
+      "surah": 5,
+      "ayah": 8,
+      "surahNameArabic": "سُورَةُ المَائـِدَةِ",
+      "surahNameEnglish": "Al-Maaida",
+      "theme": "character-justice",
+      "bn": "হে মুমিনগণ, তোমরা আল্লাহর উদ্দেশে ন্যায় সাক্ষ্যদানের ব্যাপারে অবিচল থাকবে এবং কোন সম্প্রদায়ের শত্রুতার কারণে কখনও ন্যায়বিচার পরিত্যাগ করো না। সুবিচার কর এটাই খোদাভীতির অধিক নিকটবর্তী। আল্লাহকে ভয় কর। তোমরা যা কর, নিশ্চয় আল্লাহ সে বিষয়ে খুব জ্ঞাত।",
+      "en": "O you who have believed, be persistently standing firm for Allah, witnesses in justice, and do not let the hatred of a people prevent you from being just. Be just; that is nearer to righteousness. And fear Allah; indeed, Allah is Acquainted with what you do."
+    },
+    {
+      "reference": "7:199",
+      "surah": 7,
+      "ayah": 199,
+      "surahNameArabic": "سُورَةُ الأَعۡرَافِ",
+      "surahNameEnglish": "Al-A'raaf",
+      "theme": "character-justice",
+      "bn": "আর ক্ষমা করার অভ্যাস গড়ে তোল, সৎকাজের নির্দেশ দাও এবং মূর্খ জাহেলদের থেকে দূরে সরে থাক।",
+      "en": "Take what is given freely, enjoin what is good, and turn away from the ignorant."
+    },
+    {
+      "reference": "16:90",
+      "surah": 16,
+      "ayah": 90,
+      "surahNameArabic": "سُورَةُ النَّحۡلِ",
+      "surahNameEnglish": "An-Nahl",
+      "theme": "character-justice",
+      "bn": "আল্লাহ ন্যায়পরায়ণতা, সদাচরণ এবং আত্নীয়-স্বজনকে দান করার আদেশ দেন এবং তিনি অশ্লীলতা, অসঙ্গত কাজ এবং অবাধ্যতা করতে বারণ করেন। তিনি তোমাদের উপদেশ দেন যাতে তোমরা স্মরণ রাখ।",
+      "en": "Indeed, Allah orders justice and good conduct and giving to relatives and forbids immorality and bad conduct and oppression. He admonishes you that perhaps you will be reminded."
+    },
+    {
+      "reference": "17:53",
+      "surah": 17,
+      "ayah": 53,
+      "surahNameArabic": "سُورَةُ الإِسۡرَاءِ",
+      "surahNameEnglish": "Al-Israa",
+      "theme": "character-justice",
+      "bn": "আমার বান্দাদেরকে বলে দিন, তারা যেন যা উত্তম এমন কথাই বলে। শয়তান তাদের মধ্যে সংঘর্ষ বাধায়। নিশ্চয় শয়তান মানুষের প্রকাশ্য শত্রু।",
+      "en": "And tell My servants to say that which is best. Indeed, Satan induces [dissension] among them. Indeed Satan is ever, to mankind, a clear enemy."
+    },
+    {
+      "reference": "23:96",
+      "surah": 23,
+      "ayah": 96,
+      "surahNameArabic": "سُورَةُ المُؤۡمِنُونَ",
+      "surahNameEnglish": "Al-Muminoon",
+      "theme": "character-justice",
+      "bn": "মন্দের জওয়াবে তাই বলুন, যা উত্তম। তারা যা বলে, আমি সে বিষয়ে সবিশেষ অবগত।",
+      "en": "Repel, by [means of] what is best, [their] evil. We are most knowing of what they describe."
+    },
+    {
+      "reference": "25:63",
+      "surah": 25,
+      "ayah": 63,
+      "surahNameArabic": "سُورَةُ الفُرۡقَانِ",
+      "surahNameEnglish": "Al-Furqaan",
+      "theme": "character-justice",
+      "bn": "রহমান-এর বান্দা তারাই, যারা পৃথিবীতে নম্রভাবে চলাফেরা করে এবং তাদের সাথে যখন মুর্খরা কথা বলতে থাকে, তখন তারা বলে, সালাম।",
+      "en": "And the servants of the Most Merciful are those who walk upon the earth easily, and when the ignorant address them [harshly], they say [words of] peace,"
+    },
+    {
+      "reference": "31:18",
+      "surah": 31,
+      "ayah": 18,
+      "surahNameArabic": "سُورَةُ لُقۡمَانَ",
+      "surahNameEnglish": "Luqman",
+      "theme": "character-justice",
+      "bn": "অহংকারবশে তুমি মানুষকে অবজ্ঞা করো না এবং পৃথিবীতে গর্বভরে পদচারণ করো না। নিশ্চয় আল্লাহ কোন দাম্ভিক অহংকারীকে পছন্দ করেন না।",
+      "en": "And do not turn your cheek [in contempt] toward people and do not walk through the earth exultantly. Indeed, Allah does not like everyone self-deluded and boastful."
+    },
+    {
+      "reference": "33:70",
+      "surah": 33,
+      "ayah": 70,
+      "surahNameArabic": "سُورَةُ الأَحۡزَابِ",
+      "surahNameEnglish": "Al-Ahzaab",
+      "theme": "character-justice",
+      "bn": "হে মুমিনগণ! আল্লাহকে ভয় কর এবং সঠিক কথা বল।",
+      "en": "O you who have believed, fear Allah and speak words of appropriate justice."
+    },
+    {
+      "reference": "41:34",
+      "surah": 41,
+      "ayah": 34,
+      "surahNameArabic": "سُورَةُ فُصِّلَتۡ",
+      "surahNameEnglish": "Fussilat",
+      "theme": "character-justice",
+      "bn": "সমান নয় ভাল ও মন্দ। জওয়াবে তাই বলুন যা উৎকৃষ্ট। তখন দেখবেন আপনার সাথে যে ব্যক্তির শুত্রুতা রয়েছে, সে যেন অন্তরঙ্গ বন্ধু।",
+      "en": "And not equal are the good deed and the bad. Repel [evil] by that [deed] which is better; and thereupon the one whom between you and him is enmity [will become] as though he was a devoted friend."
+    },
+    {
+      "reference": "42:40",
+      "surah": 42,
+      "ayah": 40,
+      "surahNameArabic": "سُورَةُ الشُّورَىٰ",
+      "surahNameEnglish": "Ash-Shura",
+      "theme": "character-justice",
+      "bn": "আর মন্দের প্রতিফল তো অনুরূপ মন্দই। যে ক্ষমা করে ও আপোষ করে তার পুরস্কার আল্লাহর কাছে রয়েছে; নিশ্চয় তিনি অত্যাচারীদেরকে পছন্দ করেন নাই।",
+      "en": "And the retribution for an evil act is an evil one like it, but whoever pardons and makes reconciliation - his reward is [due] from Allah. Indeed, He does not like wrongdoers."
+    },
+    {
+      "reference": "49:12",
+      "surah": 49,
+      "ayah": 12,
+      "surahNameArabic": "سُورَةُ الحُجُرَاتِ",
+      "surahNameEnglish": "Al-Hujuraat",
+      "theme": "character-justice",
+      "bn": "মুমিনগণ, তোমরা অনেক ধারণা থেকে বেঁচে থাক। নিশ্চয় কতক ধারণা গোনাহ। এবং গোপনীয় বিষয় সন্ধান করো না। তোমাদের কেউ যেন কারও পশ্চাতে নিন্দা না করে। তোমাদের কেউ কি তারা মৃত ভ্রাতার মাংস ভক্ষণ করা পছন্দ করবে? বস্তুতঃ তোমরা তো একে ঘৃণাই কর। আল্লাহকে ভয় কর। নিশ্চয় আল্লাহ তওবা কবুলকারী, পরম দয়ালু।",
+      "en": "O you who have believed, avoid much [negative] assumption. Indeed, some assumption is sin. And do not spy or backbite each other. Would one of you like to eat the flesh of his brother when dead? You would detest it. And fear Allah; indeed, Allah is Accepting of repentance and Merciful."
+    },
+    {
+      "reference": "49:13",
+      "surah": 49,
+      "ayah": 13,
+      "surahNameArabic": "سُورَةُ الحُجُرَاتِ",
+      "surahNameEnglish": "Al-Hujuraat",
+      "theme": "character-justice",
+      "bn": "হে মানব, আমি তোমাদেরকে এক পুরুষ ও এক নারী থেকে সৃষ্টি করেছি এবং তোমাদেরকে বিভিন্ন জাতি ও গোত্রে বিভক্ত করেছি, যাতে তোমরা পরস্পরে পরিচিতি হও। নিশ্চয় আল্লাহর কাছে সে-ই সর্বাধিক সম্ভ্রান্ত যে সর্বাধিক পরহেযগার। নিশ্চয় আল্লাহ সর্বজ্ঞ, সবকিছুর খবর রাখেন।",
+      "en": "O mankind, indeed We have created you from male and female and made you peoples and tribes that you may know one another. Indeed, the most noble of you in the sight of Allah is the most righteous of you. Indeed, Allah is Knowing and Acquainted."
+    },
+    {
+      "reference": "3:38",
+      "surah": 3,
+      "ayah": 38,
+      "surahNameArabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surahNameEnglish": "Aal-i-Imraan",
+      "theme": "family-parents",
+      "bn": "সেখানেই যাকারিয়া তাঁর পালনকর্তার নিকট প্রার্থনা করলেন। বললেন, হে, আমার পালনকর্তা! তোমার নিকট থেকে আমাকে পুত-পবিত্র সন্তান দান কর-নিশ্চয়ই তুমি প্রার্থনা শ্রবণকারী।",
+      "en": "At that, Zechariah called upon his Lord, saying, \"My Lord, grant me from Yourself a good offspring. Indeed, You are the Hearer of supplication.\""
+    },
+    {
+      "reference": "14:41",
+      "surah": 14,
+      "ayah": 41,
+      "surahNameArabic": "سُورَةُ إِبۡرَاهِيمَ",
+      "surahNameEnglish": "Ibrahim",
+      "theme": "family-parents",
+      "bn": "হে আমাদের পালনকর্তা, আমাকে, আমার পিতা-মাতাকে এবং সব মুমিনকে ক্ষমা করুন, যেদিন হিসাব কায়েম হবে।",
+      "en": "Our Lord, forgive me and my parents and the believers the Day the account is established.\""
+    },
+    {
+      "reference": "17:23",
+      "surah": 17,
+      "ayah": 23,
+      "surahNameArabic": "سُورَةُ الإِسۡرَاءِ",
+      "surahNameEnglish": "Al-Israa",
+      "theme": "family-parents",
+      "bn": "তোমার পালনকর্তা আদেশ করেছেন যে, তাঁকে ছাড়া অন্য কারও এবাদত করো না এবং পিতা-মাতার সাথে সদ্ব-ব্যবহার কর। তাদের মধ্যে কেউ অথবা উভয়েই যদি তোমার জীবদ্দশায় বার্ধক্যে উপনীত হয়; তবে তাদেরকে ‘উহ’ শব্দটিও বলো না এবং তাদেরকে ধমক দিও না এবং বল তাদেরকে শিষ্ঠাচারপূর্ণ কথা।",
+      "en": "And your Lord has decreed that you not worship except Him, and to parents, good treatment. Whether one or both of them reach old age [while] with you, say not to them [so much as], \"uff,\" and do not repel them but speak to them a noble word."
+    },
+    {
+      "reference": "17:24",
+      "surah": 17,
+      "ayah": 24,
+      "surahNameArabic": "سُورَةُ الإِسۡرَاءِ",
+      "surahNameEnglish": "Al-Israa",
+      "theme": "family-parents",
+      "bn": "তাদের সামনে ভালবাসার সাথে, নম্রভাবে মাথা নত করে দাও এবং বলঃ হে পালনকর্তা, তাদের উভয়ের প্রতি রহম কর, যেমন তারা আমাকে শৈশবকালে লালন-পালন করেছেন।",
+      "en": "And lower to them the wing of humility out of mercy and say, \"My Lord, have mercy upon them as they brought me up [when I was] small.\""
+    },
+    {
+      "reference": "21:89",
+      "surah": 21,
+      "ayah": 89,
+      "surahNameArabic": "سُورَةُ الأَنبِيَاءِ",
+      "surahNameEnglish": "Al-Anbiyaa",
+      "theme": "family-parents",
+      "bn": "এবং যাকারিয়ার কথা স্মরণ করুন, যখন সে তার পালনকর্তাকে আহবান করেছিল; হে আমার পালনকর্তা আমাকে একা রেখো না। তুমি তো উত্তম ওয়ারিস।",
+      "en": "And [mention] Zechariah, when he called to his Lord, \"My Lord, do not leave me alone [with no heir], while you are the best of inheritors.\""
+    },
+    {
+      "reference": "25:74",
+      "surah": 25,
+      "ayah": 74,
+      "surahNameArabic": "سُورَةُ الفُرۡقَانِ",
+      "surahNameEnglish": "Al-Furqaan",
+      "theme": "family-parents",
+      "bn": "এবং যারা বলে, হে আমাদের পালনকর্তা, আমাদের স্ত্রীদের পক্ষ থেকে এবং আমাদের সন্তানের পক্ষ থেকে আমাদের জন্যে চোখের শীতলতা দান কর এবং আমাদেরকে মুত্তাকীদের জন্যে আদর্শস্বরূপ কর।",
+      "en": "And those who say, \"Our Lord, grant us from among our wives and offspring comfort to our eyes and make us an example for the righteous.\""
+    },
+    {
+      "reference": "30:21",
+      "surah": 30,
+      "ayah": 21,
+      "surahNameArabic": "سُورَةُ الرُّومِ",
+      "surahNameEnglish": "Ar-Room",
+      "theme": "family-parents",
+      "bn": "আর এক নিদর্শন এই যে, তিনি তোমাদের জন্যে তোমাদের মধ্য থেকে তোমাদের সংগিনীদের সৃষ্টি করেছেন, যাতে তোমরা তাদের কাছে শান্তিতে থাক এবং তিনি তোমাদের মধ্যে পারস্পরিক সম্প্রীতি ও দয়া সৃষ্টি করেছেন। নিশ্চয় এতে চিন্তাশীল লোকদের জন্যে নিদর্শনাবলী রয়েছে।",
+      "en": "And of His signs is that He created for you from yourselves mates that you may find tranquillity in them; and He placed between you affection and mercy. Indeed in that are signs for a people who give thought."
+    },
+    {
+      "reference": "31:14",
+      "surah": 31,
+      "ayah": 14,
+      "surahNameArabic": "سُورَةُ لُقۡمَانَ",
+      "surahNameEnglish": "Luqman",
+      "theme": "family-parents",
+      "bn": "আর আমি মানুষকে তার পিতা-মাতার সাথে সদ্ব্যবহারের জোর নির্দেশ দিয়েছি। তার মাতা তাকে কষ্টের পর কষ্ট করে গর্ভে ধারণ করেছে। তার দুধ ছাড়ানো দু বছরে হয়। নির্দেশ দিয়েছি যে, আমার প্রতি ও তোমার পিতা-মতার প্রতি কৃতজ্ঞ হও। অবশেষে আমারই নিকট ফিরে আসতে হবে।",
+      "en": "And We have enjoined upon man [care] for his parents. His mother carried him, [increasing her] in weakness upon weakness, and his weaning is in two years. Be grateful to Me and to your parents; to Me is the [final] destination."
+    },
+    {
+      "reference": "2:269",
+      "surah": 2,
+      "ayah": 269,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "knowledge-reflection",
+      "bn": "তিনি যাকে ইচ্ছা বিশেষ জ্ঞান দান করেন এবং যাকে বিশেষ জ্ঞান দান করা হয়, সে প্রভুত কল্যাণকর বস্তু প্রাপ্ত হয়। উপদেশ তারাই গ্রহণ করে, যারা জ্ঞানবান।",
+      "en": "He gives wisdom to whom He wills, and whoever has been given wisdom has certainly been given much good. And none will remember except those of understanding."
+    },
+    {
+      "reference": "3:190",
+      "surah": 3,
+      "ayah": 190,
+      "surahNameArabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surahNameEnglish": "Aal-i-Imraan",
+      "theme": "knowledge-reflection",
+      "bn": "নিশ্চয় আসমান ও যমীন সৃষ্টিতে এবং রাত্রি ও দিনের আবর্তনে নিদর্শন রয়েছে বোধ সম্পন্ন লোকদের জন্যে।",
+      "en": "Indeed, in the creation of the heavens and the earth and the alternation of the night and the day are signs for those of understanding."
+    },
+    {
+      "reference": "20:114",
+      "surah": 20,
+      "ayah": 114,
+      "surahNameArabic": "سُورَةُ طه",
+      "surahNameEnglish": "Taa-Haa",
+      "theme": "knowledge-reflection",
+      "bn": "সত্যিকার অধীশ্বর আল্লাহ মহান। আপনার প্রতি আল্লাহর ওহী সম্পুর্ণ হওয়ার পূর্বে আপনি কোরআন গ্রহণের ব্যপারে তাড়াহুড়া করবেন না এবং বলুনঃ হে আমার পালনকর্তা, আমার জ্ঞান বৃদ্ধি করুন।",
+      "en": "So high [above all] is Allah, the Sovereign, the Truth. And, [O Muhammad], do not hasten with [recitation of] the Qur'an before its revelation is completed to you, and say, \"My Lord, increase me in knowledge.\""
+    },
+    {
+      "reference": "30:8",
+      "surah": 30,
+      "ayah": 8,
+      "surahNameArabic": "سُورَةُ الرُّومِ",
+      "surahNameEnglish": "Ar-Room",
+      "theme": "knowledge-reflection",
+      "bn": "তারা কি তাদের মনে ভেবে দেখে না যে, আল্লাহ নভোমন্ডল, ভূমন্ডল ও এতদুভয়ের মধ্যবর্তী সবকিছু সৃষ্টি করেছেন যথাযথরূপে ও নির্দিষ্ট সময়ের জন্য, কিন্তু অনেক মানুষ তাদের পালনকর্তার সাক্ষাতে অবিশ্বাসী।",
+      "en": "Do they not contemplate within themselves? Allah has not created the heavens and the earth and what is between them except in truth and for a specified term. And indeed, many of the people, in [the matter of] the meeting with their Lord, are disbelievers."
+    },
+    {
+      "reference": "35:28",
+      "surah": 35,
+      "ayah": 28,
+      "surahNameArabic": "سُورَةُ فَاطِرٍ",
+      "surahNameEnglish": "Faatir",
+      "theme": "knowledge-reflection",
+      "bn": "অনুরূপ ভাবে বিভিন্ন বর্ণের মানুষ, জন্তু, চতুস্পদ প্রাণী রয়েছে। আল্লাহর বান্দাদের মধ্যে জ্ঞানীরাই কেবল তাঁকে ভয় করে। নিশ্চয় আল্লাহ পরাক্রমশালী ক্ষমাময়।",
+      "en": "And among people and moving creatures and grazing livestock are various colors similarly. Only those fear Allah, from among His servants, who have knowledge. Indeed, Allah is Exalted in Might and Forgiving."
+    },
+    {
+      "reference": "39:9",
+      "surah": 39,
+      "ayah": 9,
+      "surahNameArabic": "سُورَةُ الزُّمَرِ",
+      "surahNameEnglish": "Az-Zumar",
+      "theme": "knowledge-reflection",
+      "bn": "যে ব্যক্তি রাত্রিকালে সেজদার মাধ্যমে অথবা দাঁড়িয়ে এবাদত করে, পরকালের আশংকা রাখে এবং তার পালনকর্তার রহমত প্রত্যাশা করে, সে কি তার সমান, যে এরূপ করে না; বলুন, যারা জানে এবং যারা জানে না; তারা কি সমান হতে পারে? চিন্তা-ভাবনা কেবল তারাই করে, যারা বুদ্ধিমান।",
+      "en": "Is one who is devoutly obedient during periods of the night, prostrating and standing [in prayer], fearing the Hereafter and hoping for the mercy of his Lord, [like one who does not]? Say, \"Are those who know equal to those who do not know?\" Only they will remember [who are] people of understanding."
+    },
+    {
+      "reference": "51:20",
+      "surah": 51,
+      "ayah": 20,
+      "surahNameArabic": "سُورَةُ الذَّارِيَاتِ",
+      "surahNameEnglish": "Adh-Dhaariyat",
+      "theme": "knowledge-reflection",
+      "bn": "বিশ্বাসকারীদের জন্যে পৃথিবীতে নিদর্শনাবলী রয়েছে,",
+      "en": "And on the earth are signs for the certain [in faith]"
+    },
+    {
+      "reference": "51:21",
+      "surah": 51,
+      "ayah": 21,
+      "surahNameArabic": "سُورَةُ الذَّارِيَاتِ",
+      "surahNameEnglish": "Adh-Dhaariyat",
+      "theme": "knowledge-reflection",
+      "bn": "এবং তোমাদের নিজেদের মধ্যেও, তোমরা কি অনুধাবন করবে না?",
+      "en": "And in yourselves. Then will you not see?"
+    },
+    {
+      "reference": "58:11",
+      "surah": 58,
+      "ayah": 11,
+      "surahNameArabic": "سُورَةُ المُجَادلَةِ",
+      "surahNameEnglish": "Al-Mujaadila",
+      "theme": "knowledge-reflection",
+      "bn": "মুমিনগণ, যখন তোমাদেরকে বলা হয়ঃ মজলিসে স্থান প্রশস্ত করে দাও, তখন তোমরা স্থান প্রশস্ত করে দিও। আল্লাহর জন্যে তোমাদের জন্য প্রশস্ত করে দিবেন। যখন বলা হয়ঃ উঠে যাও, তখন উঠে যেয়ো। তোমাদের মধ্যে যারা ঈমানদার এবং যারা জ্ঞানপ্রাপ্ত, আল্লাহ তাদের মর্যাদা উচ্চ করে দিবেন। আল্লাহ খবর রাখেন যা কিছু তোমরা কর।",
+      "en": "O you who have believed, when you are told, \"Space yourselves\" in assemblies, then make space; Allah will make space for you. And when you are told, \"Arise,\" then arise; Allah will raise those who have believed among you and those who were given knowledge, by degrees. And Allah is Acquainted with what you do."
+    },
+    {
+      "reference": "96:1",
+      "surah": 96,
+      "ayah": 1,
+      "surahNameArabic": "سُورَةُ العَلَقِ",
+      "surahNameEnglish": "Al-Alaq",
+      "theme": "knowledge-reflection",
+      "bn": "পাঠ করুন আপনার পালনকর্তার নামে যিনি সৃষ্টি করেছেন",
+      "en": "Recite in the name of your Lord who created -"
+    },
+    {
+      "reference": "1:5",
+      "surah": 1,
+      "ayah": 5,
+      "surahNameArabic": "سُورَةُ ٱلْفَاتِحَةِ",
+      "surahNameEnglish": "Al-Faatiha",
+      "theme": "tawhid-guidance",
+      "bn": "আমরা একমাত্র তোমারই ইবাদত করি এবং শুধুমাত্র তোমারই সাহায্য প্রার্থনা করি।",
+      "en": "It is You we worship and You we ask for help."
+    },
+    {
+      "reference": "1:6",
+      "surah": 1,
+      "ayah": 6,
+      "surahNameArabic": "سُورَةُ ٱلْفَاتِحَةِ",
+      "surahNameEnglish": "Al-Faatiha",
+      "theme": "tawhid-guidance",
+      "bn": "আমাদেরকে সরল পথ দেখাও,",
+      "en": "Guide us to the straight path -"
+    },
+    {
+      "reference": "2:21",
+      "surah": 2,
+      "ayah": 21,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "tawhid-guidance",
+      "bn": "হে মানব সমাজ! তোমরা তোমাদের পালনকর্তার এবাদত কর, যিনি তোমাদিগকে এবং তোমাদের পূর্ববর্তীদিগকে সৃষ্টি করেছেন। তাতে আশা করা যায়, তোমরা পরহেযগারী অর্জন করতে পারবে।",
+      "en": "O mankind, worship your Lord, who created you and those before you, that you may become righteous -"
+    },
+    {
+      "reference": "2:255",
+      "surah": 2,
+      "ayah": 255,
+      "surahNameArabic": "سُورَةُ البَقَرَةِ",
+      "surahNameEnglish": "Al-Baqara",
+      "theme": "tawhid-guidance",
+      "bn": "আল্লাহ ছাড়া অন্য কোন উপাস্য নেই, তিনি জীবিত, সবকিছুর ধারক। তাঁকে তন্দ্রাও স্পর্শ করতে পারে না এবং নিদ্রাও নয়। আসমান ও যমীনে যা কিছু রয়েছে, সবই তাঁর। কে আছ এমন, যে সুপারিশ করবে তাঁর কাছে তাঁর অনুমতি ছাড়া? দৃষ্টির সামনে কিংবা পিছনে যা কিছু রয়েছে সে সবই তিনি জানেন। তাঁর জ্ঞানসীমা থেকে তারা কোন কিছুকেই পরিবেষ্টিত করতে পারে না, কিন্তু যতটুকু তিনি ইচ্ছা করেন। তাঁর সিংহাসন সমস্ত আসমান ও যমীনকে পরিবেষ্টিত করে আছে। আর সেগুলোকে ধারণ করা তাঁর পক্ষে কঠিন নয়। তিনিই সর্বোচ্চ এবং সর্বাপেক্ষা মহান।",
+      "en": "Allah - there is no deity except Him, the Ever-Living, the Sustainer of [all] existence. Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what is [presently] before them and what will be after them, and they encompass not a thing of His knowledge except for what He wills. His Kursi extends over the heavens and the earth, and their preservation tires Him not. And He is the Most High, the Most Great."
+    },
+    {
+      "reference": "3:8",
+      "surah": 3,
+      "ayah": 8,
+      "surahNameArabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surahNameEnglish": "Aal-i-Imraan",
+      "theme": "tawhid-guidance",
+      "bn": "হে আমাদের পালনকর্তা! সরল পথ প্রদর্শনের পর তুমি আমাদের অন্তরকে সত্যলংঘনে প্রবৃত্ত করোনা এবং তোমার নিকট থেকে আমাদিগকে অনুগ্রহ দান কর। তুমিই সব কিছুর দাতা।",
+      "en": "[Who say], \"Our Lord, let not our hearts deviate after You have guided us and grant us from Yourself mercy. Indeed, You are the Bestower."
+    },
+    {
+      "reference": "3:26",
+      "surah": 3,
+      "ayah": 26,
+      "surahNameArabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surahNameEnglish": "Aal-i-Imraan",
+      "theme": "tawhid-guidance",
+      "bn": "বলুন ইয়া আল্লাহ! তুমিই সার্বভৌম শক্তির অধিকারী। তুমি যাকে ইচ্ছা রাজ্য দান কর এবং যার কাছ থেকে ইচ্ছা রাজ্য ছিনিয়ে নাও এবং যাকে ইচ্ছা সম্মান দান কর আর যাকে ইচ্ছা অপমানে পতিত কর। তোমারই হাতে রয়েছে যাবতীয় কল্যাণ। নিশ্চয়ই তুমি সর্ব বিষয়ে ক্ষমতাশীল।",
+      "en": "Say, \"O Allah, Owner of Sovereignty, You give sovereignty to whom You will and You take sovereignty away from whom You will. You honor whom You will and You humble whom You will. In Your hand is [all] good. Indeed, You are over all things competent."
+    },
+    {
+      "reference": "3:31",
+      "surah": 3,
+      "ayah": 31,
+      "surahNameArabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surahNameEnglish": "Aal-i-Imraan",
+      "theme": "tawhid-guidance",
+      "bn": "বলুন, যদি তোমরা আল্লাহকে ভালবাস, তাহলে আমাকে অনুসরণ কর, যাতে আল্লাহ ও তোমাদিগকে ভালবাসেন এবং তোমাদিগকে তোমাদের পাপ মার্জনা করে দেন। আর আল্লাহ হলেন ক্ষমাকারী দয়ালু।",
+      "en": "Say, [O Muhammad], \"If you should love Allah, then follow me, [so] Allah will love you and forgive you your sins. And Allah is Forgiving and Merciful.\""
+    },
+    {
+      "reference": "3:102",
+      "surah": 3,
+      "ayah": 102,
+      "surahNameArabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surahNameEnglish": "Aal-i-Imraan",
+      "theme": "tawhid-guidance",
+      "bn": "হে ঈমানদারগণ! আল্লাহকে যেমন ভয় করা উচিৎ ঠিক তেমনিভাবে ভয় করতে থাক। এবং অবশ্যই মুসলমান না হয়ে মৃত্যুবরণ করো না।",
+      "en": "O you who have believed, fear Allah as He should be feared and do not die except as Muslims [in submission to Him]."
+    },
+    {
+      "reference": "3:103",
+      "surah": 3,
+      "ayah": 103,
+      "surahNameArabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surahNameEnglish": "Aal-i-Imraan",
+      "theme": "tawhid-guidance",
+      "bn": "আর তোমরা সকলে আল্লাহর রজ্জুকে সুদৃঢ় হস্তে ধারণ কর; পরস্পর বিচ্ছিন্ন হয়ো না। আর তোমরা সে নেয়ামতের কথা স্মরণ কর, যা আল্লাহ তোমাদিগকে দান করেছেন। তোমরা পরস্পর শত্রু ছিলে। অতঃপর আল্লাহ তোমাদের মনে সম্প্রীতি দান করেছেন। ফলে, এখন তোমরা তাঁর অনুগ্রহের কারণে পরস্পর ভাই ভাই হয়েছ। তোমরা এক অগ্নিকুন্ডের পাড়ে অবস্থান করছিলে। অতঃপর তা থেকে তিনি তোমাদেরকে মুক্তি দিয়েছেন। এভাবেই আল্লাহ নিজের নিদর্শনসমুহ প্রকাশ করেন, যাতে তোমরা হেদায়েত প্রাপ্ত হতে পার।",
+      "en": "And hold firmly to the rope of Allah all together and do not become divided. And remember the favor of Allah upon you - when you were enemies and He brought your hearts together and you became, by His favor, brothers. And you were on the edge of a pit of the Fire, and He saved you from it. Thus does Allah make clear to you His verses that you may be guided."
+    },
+    {
+      "reference": "6:162",
+      "surah": 6,
+      "ayah": 162,
+      "surahNameArabic": "سُورَةُ الأَنۡعَامِ",
+      "surahNameEnglish": "Al-An'aam",
+      "theme": "tawhid-guidance",
+      "bn": "আপনি বলুনঃ আমার নামায, আমার কোরবাণী এবং আমার জীবন ও মরন বিশ্ব-প্রতিপালক আল্লাহরই জন্যে।",
+      "en": "Say, \"Indeed, my prayer, my rites of sacrifice, my living and my dying are for Allah, Lord of the worlds."
+    },
+    {
+      "reference": "24:35",
+      "surah": 24,
+      "ayah": 35,
+      "surahNameArabic": "سُورَةُ النُّورِ",
+      "surahNameEnglish": "An-Noor",
+      "theme": "tawhid-guidance",
+      "bn": "আল্লাহ নভোমন্ডল ও ভূমন্ডলের জ্যোতি, তাঁর জ্যোতির উদাহরণ যেন একটি কুলঙ্গি, যাতে আছে একটি প্রদীপ, প্রদীপটি একটি কাঁচপাত্রে স্থাপিত, কাঁচপাত্রটি উজ্জ্বল নক্ষত্র সদৃশ্য। তাতে পুতঃপবিত্র যয়তুন বৃক্ষের তৈল প্রজ্বলিত হয়, যা পূর্বমুখী নয় এবং পশ্চিমমুখীও নয়। অগ্নি স্পর্শ না করলেও তার তৈল যেন আলোকিত হওয়ার নিকটবর্তী। জ্যোতির উপর জ্যোতি। আল্লাহ যাকে ইচ্ছা পথ দেখান তাঁর জ্যোতির দিকে। আল্লাহ মানুষের জন্যে দৃষ্টান্তসমূহ বর্ণনা করেন এবং আল্লাহ সব বিষয়ে জ্ঞাত।",
+      "en": "Allah is the Light of the heavens and the earth. The example of His light is like a niche within which is a lamp, the lamp is within glass, the glass as if it were a pearly [white] star lit from [the oil of] a blessed olive tree, neither of the east nor of the west, whose oil would almost glow even if untouched by fire. Light upon light. Allah guides to His light whom He wills. And Allah presents examples for the people, and Allah is Knowing of all things."
+    },
+    {
+      "reference": "51:56",
+      "surah": 51,
+      "ayah": 56,
+      "surahNameArabic": "سُورَةُ الذَّارِيَاتِ",
+      "surahNameEnglish": "Adh-Dhaariyat",
+      "theme": "tawhid-guidance",
+      "bn": "আমার এবাদত করার জন্যই আমি মানব ও জিন জাতি সৃষ্টি করেছি।",
+      "en": "And I did not create the jinn and mankind except to worship Me."
+    },
+    {
+      "reference": "112:1",
+      "surah": 112,
+      "ayah": 1,
+      "surahNameArabic": "سُورَةُ الإِخۡلَاصِ",
+      "surahNameEnglish": "Al-Ikhlaas",
+      "theme": "tawhid-guidance",
+      "bn": "বলুন, তিনি আল্লাহ, এক,",
+      "en": "Say, \"He is Allah, [who is] One,"
+    }
+  ]
+}
