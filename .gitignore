@@ -5,3 +5,9 @@ dist/
 
 
 .env
+
+# Runtime data: live SQLite database, WAL sidecars and backups.
+# Never track these — the repo must not carry a database at the same path as production.
+# Leading slash anchors this to the repo root: an unanchored "data/" would also
+# match src/data/, which holds bundled runtime assets that MUST stay tracked.
+/data/
