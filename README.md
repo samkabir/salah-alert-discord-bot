@@ -23,8 +23,17 @@ can mute alerts for dates, date ranges, or specific time windows.
 npm install
 cp .env.example .env     # then fill in the values below
 npm run deploy-commands  # register the /prayer command with Discord
+npm run set-avatar       # upload the bot's logo (one-off, see below)
 npm run dev              # start the bot (hot-reload dev mode)
 ```
+
+### Bot logo
+
+The avatar lives at `src/assets/logo.jpg`. To change it, replace that file and
+run `npm run set-avatar` — the script uploads it as both the bot's avatar and the
+application icon. It is a manual step because Discord rate-limits avatar changes
+to roughly a couple per hour, so the bot deliberately does not re-upload on every
+restart.
 
 ### Environment variables (`.env`)
 
@@ -75,9 +84,11 @@ when today's alerts will fire.
 
 ## Command reference
 
-All commands live under `/prayer` and are **admin-only** (they require the
-Manage-Server / Administrator permission and don't work in DMs). Every reply is
-ephemeral (only you see it). `waqt` is always one of `fajr`, `dhuhr`, `asr`,
+All commands live under `/prayer` and don't work in DMs. Every subcommand that
+changes configuration is **admin-only** (Administrator permission); `/prayer
+status` is open to **any member**, so anyone can check when the next alert fires.
+A non-admin who tries a config subcommand gets a short "administrators only"
+notice. Every reply is ephemeral (only you see it). `waqt` is always one of `fajr`, `dhuhr`, `asr`,
 `maghrib`, `isha`.
 
 ### `/prayer channel`
@@ -209,6 +220,8 @@ Mute entries
 
 ### `/prayer status` — see everything at a glance
 
+Usable by **any member**, not just admins.
+
 ```text
 /prayer status
 ```
@@ -307,6 +320,9 @@ are pruned automatically.
 - **Wrong times.** Check `LAT`/`LON` and `TIMEZONE` in `.env`. After changing
   coordinates, regenerate the offline table:
   `npx tsx scripts/generate-fallback.ts`.
+- **Avatar didn't change.** Discord rate-limits avatar edits (~2/hour); wait and
+  re-run `npm run set-avatar`. Discord clients also cache avatars aggressively —
+  the new one can take a while to show up everywhere.
 - **"Today's times: Not cached yet" in status.** The daily fetch runs at 00:01,
   or on startup — restart the bot to fetch immediately.
 

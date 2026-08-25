@@ -17,6 +17,7 @@ npm run dev              # tsx watch src/index.ts (hot reload; reads assets from
 npm run build            # tsc -> dist/  (NOTE: does not copy .sql/.json — see Deployment)
 npm start                # node dist/index.js (production)
 npm run deploy-commands  # register the /prayer slash command with Discord
+npm run set-avatar       # push src/assets/logo.jpg as the bot avatar + app icon
 npx tsc --noEmit         # typecheck; MUST stay clean
 npx tsx scripts/generate-fallback.ts   # regenerate src/data/fallback-times.json
 ```
@@ -57,10 +58,12 @@ src/
   events/                  ready.ts, interactionCreate.ts
   utils/
     time.ts                timezone-aware helpers (see below)
-    permissions.ts         admin-only gate for /prayer
+    permissions.ts         admin gate + the public-subcommand allowlist
   types/prayer.types.ts    shared domain types + WAQTS/OFFSET_TYPES/WEEKDAYS consts
   data/fallback-times.json bundled full-year static prayer times (generated)
+  assets/logo.jpg          bot avatar / app icon source image
 scripts/generate-fallback.ts  one-off generator for the static JSON
+scripts/set-avatar.ts         one-off avatar / app-icon uploader
 ```
 
 ## Hard conventions
@@ -85,6 +88,20 @@ scripts/generate-fallback.ts  one-off generator for the static JSON
   the stale job running and firing at the old time. This applies to `set`,
   `toggle`, `days`, `message`, `unmute`, and every `mute` subcommand. `channel` is
   exempt: the job resolves the channel from `getGuildConfig` at fire time.
+- **The `/prayer` admin gate lives in `routePrayerCommand`, not on the builder.**
+  Discord's `setDefaultMemberPermissions` applies to a whole command — there is no
+  per-subcommand equivalent — and `/prayer status` must be usable by any member.
+  So the command is registered with no permission default and
+  `routePrayerCommand` rejects non-admins for anything outside
+  `PUBLIC_SUBCOMMANDS` (`utils/permissions.ts`, currently just `status`). Adding
+  a read-only subcommand? Add its name to that set. Adding a mutating one? Do
+  nothing — admin-only is the default. The whole `mute` group is always
+  admin-only.
+- **The bot's avatar is not set at boot.** `src/assets/logo.jpg` is the source of
+  truth; `npm run set-avatar` uploads it via `client.user.setAvatar` and
+  `client.application.edit({ icon })`. Discord rate-limits avatar/username edits
+  to roughly a couple per hour, so doing it on `ready` would risk a restart loop
+  burning the quota — run the script by hand after replacing the file.
 - **Re-run `npm run deploy-commands`** whenever the command schema changes (new
   subcommand/option), or Discord keeps showing the old shape.
 
@@ -174,8 +191,8 @@ single day has them equal), an `enabled` flag, and an optional time window
 ## Deployment
 
 `npm run build` runs `tsc` then `scripts/copy-assets.mjs`, which copies the
-non-TS runtime assets `tsc` doesn't emit (`src/db/migrations` and `src/data`) into
-`dist/`. `pm2` (`ecosystem.config.js`) runs `dist/index.js` with `TZ=Asia/Dhaka`,
+non-TS runtime assets `tsc` doesn't emit (`src/db/migrations`, `src/data` and
+`src/assets`) into `dist/`. `pm2` (`ecosystem.config.js`) runs `dist/index.js` with `TZ=Asia/Dhaka`,
 so after any source change: `npm run build && pm2 restart namaz-bot`.
 
 `ecosystem.config.js` sets no `cwd`, and `DB_PATH`/`BACKUP_DIR` default to

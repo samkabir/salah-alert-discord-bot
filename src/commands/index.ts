@@ -1,5 +1,5 @@
 import { ChatInputCommandInteraction, SlashCommandBuilder } from "discord.js";
-import { ADMIN_ONLY_PERMISSIONS } from "../utils/permissions";
+import { PUBLIC_SUBCOMMANDS, isGuildAdmin } from "../utils/permissions";
 import { toggleCommand } from "./prayer/toggle";
 import { setCommand } from "./prayer/set";
 import { messageCommand } from "./prayer/message";
@@ -35,7 +35,6 @@ export function buildPrayerCommand(): SlashCommandBuilder {
   const builder = new SlashCommandBuilder()
     .setName("prayer")
     .setDescription("Configure namaz alerts")
-    .setDefaultMemberPermissions(ADMIN_ONLY_PERMISSIONS)
     .setDMPermission(false);
 
   for (const cmd of flatSubcommands) {
@@ -49,6 +48,17 @@ export function buildPrayerCommand(): SlashCommandBuilder {
 export async function routePrayerCommand(interaction: ChatInputCommandInteraction): Promise<void> {
   const group = interaction.options.getSubcommandGroup(false);
   const sub = interaction.options.getSubcommand(true);
+
+  const isPublic = group === null && PUBLIC_SUBCOMMANDS.has(sub);
+  if (!isPublic && !isGuildAdmin(interaction)) {
+    await interaction.reply({
+      content:
+        "Only server administrators can change prayer alert settings. " +
+        "Use `/prayer status` to see the current configuration.",
+      ephemeral: true,
+    });
+    return;
+  }
 
   if (group === "mute") {
     if (sub === "range") return executeMuteRange(interaction);

@@ -8,6 +8,7 @@
     "build": "tsc -p tsconfig.json && node scripts/copy-assets.mjs",
     "start": "node dist/index.js",
     "deploy-commands": "tsx src/deploy-commands.ts",
+    "set-avatar": "tsx scripts/set-avatar.ts",
     "deploy-commands:prod": "node dist/deploy-commands.js"
   },
   "dependencies": {

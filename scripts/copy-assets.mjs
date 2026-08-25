@@ -9,6 +9,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const assets = [
   ["src/db/migrations", "dist/db/migrations"],
   ["src/data", "dist/data"],
+  ["src/assets", "dist/assets"],
 ];
 
 for (const [from, to] of assets) {
