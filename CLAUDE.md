@@ -74,6 +74,16 @@ scripts/set-avatar.ts         one-off avatar / app-icon uploader
   in `client.ts` records applied files in `_migrations` and runs each once, so
   non-idempotent `ALTER TABLE` is safe. `001_init.sql` uses `CREATE TABLE IF NOT
   EXISTS` and stays re-runnable for pre-tracking databases.
+- **Boot-time seeding must not fight a delete-based setting.** `ensureGuild` runs on
+  every `ready` (and `guildCreate`), calling `ensureWaqtDefaults`. `active_days` is
+  stored as "a row exists = that day is active", and `setActiveDays` is
+  DELETE-then-INSERT, so a day the admin removed leaves *no row*. Seeding it with a
+  per-row `INSERT OR IGNORE` over `WEEKDAYS` therefore reads a removed day as a
+  missing default and silently restores it on the next restart — this shipped, and
+  quietly re-enabled Friday alerts on every deploy. The seeder now checks per waqt
+  and only seeds when that waqt has zero rows. Any new default-seeding follows the
+  same rule: seed a whole absent set, never top up individual rows of a set the
+  user can subtract from.
 - **Never construct wall-clock times by hand.** Use `utils/time.ts`:
   `todayIso()` (YYYY-MM-DD in TIMEZONE), `currentWeekday()`, `zonedTimeToDate(iso,
   h, m)` (wall time in TIMEZONE → absolute Date), `formatTimeInZone(date)`
