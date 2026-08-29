@@ -21,9 +21,22 @@ function mapRow(row: WaqtRow): WaqtSetting {
   };
 }
 
+/**
+ * Seed a guild's rows on first sight (and top up any waqt added to WAQTS later).
+ *
+ * Day seeding is deliberately per-waqt, not per-row: `setActiveDays` implements
+ * "active days" as DELETE-then-INSERT, so a day the admin removed leaves no row
+ * behind. A per-row `INSERT OR IGNORE` over WEEKDAYS would read that absence as
+ * "missing default" and silently restore the removed day on every boot. Zero
+ * rows for a waqt is the only unambiguous "never configured" signal, because
+ * `/prayer days` rejects an empty day list.
+ */
 export function ensureWaqtDefaults(guildId: string): void {
   const insertWaqt = db.prepare(
     `INSERT OR IGNORE INTO waqt_settings (guild_id, waqt) VALUES (?, ?)`
+  );
+  const countDays = db.prepare(
+    `SELECT COUNT(*) AS n FROM active_days WHERE guild_id = ? AND waqt = ?`
   );
   const insertDay = db.prepare(
     `INSERT OR IGNORE INTO active_days (guild_id, waqt, weekday) VALUES (?, ?, ?)`
@@ -31,7 +44,10 @@ export function ensureWaqtDefaults(guildId: string): void {
   const tx = db.transaction(() => {
     for (const waqt of WAQTS) {
       insertWaqt.run(guildId, waqt);
-      for (const day of WEEKDAYS) insertDay.run(guildId, waqt, day);
+      const { n } = countDays.get(guildId, waqt) as { n: number };
+      if (n === 0) {
+        for (const day of WEEKDAYS) insertDay.run(guildId, waqt, day);
+      }
     }
   });
   tx();
