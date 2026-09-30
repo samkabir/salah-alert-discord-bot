@@ -93,7 +93,8 @@ export const statusCommand: PrayerSubcommand = {
           `Mode: ${offsetDesc}\n` +
           `Today: ${state}\n` +
           `Days: ${days.join(", ")}\n` +
-          `Message: ${setting.customMessage ? "custom" : "default"}`,
+          `Message: ${setting.customMessage ? "custom" : "default"}\n` +
+          `Quote: ${setting.showQuote ? "on" : "off"}`,
         inline: false,
       });
     }

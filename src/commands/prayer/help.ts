@@ -15,6 +15,7 @@ export const helpCommand: PrayerSubcommand = {
           "`/prayer message <waqt> <text|reset>` — custom or default alert message",
           "`/prayer channel <#channel>` — set the alert channel",
           "`/prayer days <waqt|all> <mon,tue,...>` — set active weekdays",
+          "`/prayer quote <waqt|all> <true|false>` — show/hide Quranic ayah quotes in alerts",
           "`/prayer mute range <start> <end> [time]` — mute a date range (optional HH:MM-HH:MM window)",
           "`/prayer mute day <date> [time]` — mute a single day (optional HH:MM-HH:MM window)",
           "`/prayer mute list` — list mute entries with IDs",

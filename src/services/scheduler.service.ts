@@ -1,6 +1,7 @@
 import * as schedule from "node-schedule";
-import { Client, TextChannel } from "discord.js";
+import { Client, TextChannel, EmbedBuilder } from "discord.js";
 import { env } from "../config/env";
+import { getQuoteForWaqt, buildQuoteEmbed } from "./quote.service";
 import { Waqt, WaqtSetting, PrayerTimesCache } from "../types/prayer.types";
 import {
   listAllGuildIds,
@@ -105,10 +106,23 @@ function scheduleOneOffAlert(
         renderMessage(current.customMessage, waqt, at),
       ].join("\n");
 
+      const embeds: EmbedBuilder[] = [];
+      if (current.showQuote) {
+        try {
+          const quote = getQuoteForWaqt(iso, waqt);
+          if (quote) {
+            embeds.push(buildQuoteEmbed(quote));
+          }
+        } catch (err) {
+          console.error(`[quote] Failed to resolve quote for ${waqt} (${iso}):`, err);
+        }
+      }
+
       // @everyone only notifies from `content` (never from an embed body), and only
       // if the bot holds the "Mention @everyone, @here, and All Roles" permission.
       await channel.send({
         content,
+        embeds,
         allowedMentions: { parse: ["everyone", "roles", "users"] },
       });
       markFired(guildId, waqt, iso);
