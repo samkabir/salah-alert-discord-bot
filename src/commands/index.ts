@@ -8,6 +8,7 @@ import { daysCommand } from "./prayer/days";
 import { unmuteCommand } from "./prayer/unmute";
 import { statusCommand } from "./prayer/status";
 import { helpCommand } from "./prayer/help";
+import { quoteCommand } from "./prayer/quote";
 import {
   buildMuteGroup,
   executeMuteRange,
@@ -28,6 +29,7 @@ const flatSubcommands: PrayerSubcommand[] = [
   daysCommand,
   unmuteCommand,
   statusCommand,
+  quoteCommand,
   helpCommand,
 ];
 

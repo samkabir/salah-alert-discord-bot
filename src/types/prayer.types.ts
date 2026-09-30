@@ -14,6 +14,7 @@ export interface WaqtSetting {
   offsetType: OffsetType;
   offsetValue: number;
   customMessage: string | null;
+  showQuote: boolean;
 }
 
 export interface GuildConfig {

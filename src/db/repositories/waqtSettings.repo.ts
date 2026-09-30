@@ -8,6 +8,7 @@ interface WaqtRow {
   offset_type: OffsetType;
   offset_value: number;
   custom_message: string | null;
+  show_quote?: number;
 }
 
 function mapRow(row: WaqtRow): WaqtSetting {
@@ -18,6 +19,7 @@ function mapRow(row: WaqtRow): WaqtSetting {
     offsetType: row.offset_type,
     offsetValue: row.offset_value,
     customMessage: row.custom_message,
+    showQuote: (row.show_quote ?? 1) === 1,
   };
 }
 
@@ -114,3 +116,17 @@ export function setActiveDays(guildId: string, waqts: Waqt[], days: Weekday[]): 
   });
   tx();
 }
+
+export function setQuoteToggle(guildId: string, waqt: Waqt | "all", showQuote: boolean): void {
+  const val = showQuote ? 1 : 0;
+  if (waqt === "all") {
+    db.prepare(`UPDATE waqt_settings SET show_quote = ? WHERE guild_id = ?`).run(val, guildId);
+  } else {
+    db.prepare(`UPDATE waqt_settings SET show_quote = ? WHERE guild_id = ? AND waqt = ?`).run(
+      val,
+      guildId,
+      waqt
+    );
+  }
+}
+
